@@ -1,0 +1,479 @@
+%!TEX program = pdflatex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The Legrand Orange Book
+% LaTeX Template
+% Version 1.4 (12/4/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Mathias Legrand (legrand.mathias@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Compiling this template:
+% This template uses biber for its bibliography and makeindex for its index.
+% When you first open the template, compile it from the command line with the 
+% commands below to make sure your LaTeX distribution is configured correctly:
+%
+% 1) pdflatex main
+% 2) makeindex main.idx -s StyleInd.ist
+% 3) biber main
+% 4) pdflatex main x 2
+%
+% After this, when you wish to update the bibliography/index use the appropriate
+% command above and make sure to compile with pdflatex several times 
+% afterwards to propagate your changes to the document.
+%
+% This template also uses a number of packages which may need to be
+% updated to the newest versions for the template to compile. It is strongly
+% recommended you update your LaTeX distribution if you have any
+% compilation errors.
+%
+% Important note:
+% Chapter heading images should have a 2:1 width:height ratio,
+% e.g. 920px width and 460px height.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,fleqn]{book} % Default font size and left-justified equations
+
+\usepackage[top=3cm,bottom=3cm,left=3.2cm,right=3.2cm,headsep=10pt,a4paper]{geometry} % Page margins
+
+\usepackage{xcolor} % Required for specifying colors by name
+\definecolor{blue}{rgb}{0.0, 0.18, 0.39}
+
+% Font Settings
+\usepackage{avant} % Use the Avantgarde font for headings
+%\usepackage{times} % Use the Times font for headings
+\usepackage{mathptmx} % Use the Adobe Times Roman as the default text font together with math symbols from the Sym­bol, Chancery and Com­puter Modern fonts
+
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage[utf8]{inputenc} % Required for including letters with accents
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\hyphenation{Mi-nis-té-ri-o}
+
+
+% Index
+\usepackage{calc} % For simpler calculation - used for spacing the index letter headings correctly
+\usepackage{makeidx} % Required to make an index
+\makeindex % Tells LaTeX to create the files required for indexing
+\usepackage{verbatim}
+
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny,linecolor=red,backgroundcolor=red!25,bordercolor=red]{todonotes}
+\usepackage{epigraph}
+\renewcommand{\textflush}{flushepinormal}
+\setlength{\epigraphwidth}{0.8\textwidth}
+
+\usepackage{nameref}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{multirow}
+
+
+% Bibliography
+%\usepackage[backend=biber,style=authoryear,autocite=inline, citestyle=authoryear]{biblatex}
+\usepackage[style=abnt]{biblatex}
+\addbibresource{bibliography.bib} % BibTeX bibliography file
+\defbibheading{bibempty}{}
+\renewcommand*{\nameyeardelim}{\addcomma\space}
+
+\newcommand{\VER}[1]{\begingroup\color{red}#1\endgroup}
+
+%----------------------------------------------------------------------------------------
+
+\input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
+
+\begin{document}
+
+\let\cleardoublepage\clearpage
+
+\renewcommand{\chaptername}{Capítulo}
+\renewcommand{\figurename}{Fig.}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+\begingroup
+	\thispagestyle{empty}
+	
+	\AddToShipoutPicture*{\put(0,0){\includegraphics[scale=1]{capa}}} % Image background
+	
+	\AddToShipoutPicture*{\put(116,650){\includegraphics[scale=.75]{brasao.png}}} % Image background
+	
+	\AddToShipoutPicture*{\put(244,200){\includegraphics[scale=0.2]{ifgvertical}}} % Image background
+	
+	\vspace*{4.5cm}
+	
+	\centering
+	\par
+	{\Huge Projeto Pedagógico}\vspace*{1.5cm}
+	\par
+	\fontsize{40}{40}
+	\selectfont
+	Tecnologia em Análise e Desenvolvimento de Sistemas\vspace*{10cm}
+	\par
+	{\Huge 2019}
+	\par
+\endgroup
+\pagebreak
+
+%----------------------------------------------------------------------------------------
+%	PEOPLE PAGE
+%----------------------------------------------------------------------------------------
+\chapterimage{banner3} % Chapter heading image
+\begin{center}
+	\par
+	{\large PRESIDENTE DA REPÚBLICA \\ Jair Messias Bolsonaro}\vspace*{1cm}
+	\par
+	{\large MINISTRO DA EDUCAÇÃO \\ Nome do Ministro}\vspace*{1cm}
+	\par
+	{\large SECRETÁRIO DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA \\ Alexandro Ferreira de Souza}\vspace*{1cm}
+	\par
+	{\large REITOR DO INSTITUTO FEDERAL DE GOIÁS \\ Jerônimo Rodrigues da Silva}\vspace*{1cm}
+	\par
+	{\large PRÓ-REITOR DE PESQUISA E PÓS-GRADUAÇÃO \\ Ruberley Rodrigues de Souza}\vspace*{1cm}
+	\par
+	{\large DIRETORIA DE PÓS-GRADUAÇÃO \\ Clarinda Aparecida da Silva}\vspace*{1cm}
+	\par
+	{\large COORDENADOR DO CURSO \\ Nome do Coordenador}\vspace*{1cm}
+\end{center}
+
+\chapterimage{banner3} % Chapter heading image
+\renewcommand\contentsname{Sumário}
+\tableofcontents
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER
+%----------------------------------------------------------------------------------------
+\chapterimage{01.jpg} % Chapter heading image
+\chapter{Apresentação}
+\vspace{12em}
+
+\todo[inline]{Texto...}
+
+
+%-----------------------------------------------
+\newpage  
+%------------------------------------------------
+\section{Identificação do Curso}
+\begin{itemize}
+	\item \textbf{Instituição Proponente:} Instituto Federal de Goiás
+	\item \textbf{Nome do curso:} Tecnologia em Análise e Desenvolvimento de Sistemas
+	\item \textbf{Carga Horária do Curso:}~\VER{2400} horas
+	\item \textbf{Forma de oferta:} Presencial
+	\item \textbf{Duração:} 2,5 anos
+	\item \textbf{Número de Vagas:} 30 vagas anuais
+	\item \textbf{Local de Oferta:} Instituto Federal de Goiás - Câmpus Formosa
+	\item \textbf{Reitor:}~\VER{NOME}
+	\item \textbf{Pró-Reitora de Ensino:}~\VER{NOME}
+	\item \textbf{Pró-Reitor de Pesquisa, Pós-Graduação e Inovação:}~\VER{NOME}
+	\item \textbf{Diretoria de Pós-Graduação:}~\VER{NOME}
+\end{itemize}
+
+\section{Comissão Organizadora}
+	\begin{itemize}[label=\bfseries]
+		\item Waldeyr Mendes Cordeiro da Silva
+	\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER
+%----------------------------------------------------------------------------------------
+\chapterimage{02.jpg} % Chapter heading image
+\chapter{Introdução}
+\vspace{12em}
+
+\todo[inline]{Texto...}
+
+\section{Justificativa}
+
+\todo[inline]{Texto...}
+
+\section{Público Alvo}
+
+\todo[inline]{Texto...}
+
+\section{Objetivos}\label{objetivos}
+\subsection{Objetivo Geral}
+
+\todo[inline]{Texto...}
+
+\subsection{Objetivos Específicos}
+\begin{itemize}
+\item Texto... 
+\end{itemize}
+
+\section{Requisitos para Acesso ao Curso}
+
+\todo[inline]{Texto...}
+
+
+\section{Perfil do Egresso}
+
+\todo[inline]{Texto...}
+
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER
+%----------------------------------------------------------------------------------------
+\chapterimage{03.jpg} % Chapter heading image
+\chapter{Organização do Curso}
+\vspace{12em}
+
+\section{Forma de Oferta}\label{carga}
+
+
+\section{Matriz Curricular}\label{matriz}
+
+\todo[inline]{Texto...}
+
+\begin{table}[]
+	\centering
+	\caption{Matriz Curricular do Curso Superior em Tecnologia em Análise e Desenvolvimento de Sistemas.}
+		\label{tab:matriz}
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{|l|l|c|c|c|c|c|c|}
+				\hline
+				\textbf{Núcleo}                               & \textbf{Disciplinas}                          & \textbf{1º semestre} & \textbf{2º semestre} & \textbf{3º semestre} & \textbf{4º semestre} & \textbf{5º semestre} & \textbf{CH}   \\ \hline
+				\multirow{22}{*}{\textbf{Profissionalizante}} & Algoritmos                                    & 54                   &                      &                      &                      &                      & 54            \\ \cline{2-8} 
+				& Fundamentos da Computação                     & 54                   &                      &                      &                      &                      & 54            \\ \cline{2-8} 
+				& Engenharia de Software                        & 54                   &                      &                      &                      &                      & 54            \\ \cline{2-8} 
+				& Sistemas Operacionais                         &                      & 54                   &                      &                      &                      & 54            \\ \cline{2-8} 
+				& Bancos de Dados                               &                      & 54                   &                      &                      &                      & 54            \\ \cline{2-8} 
+				& Estruturas de Dados                           &                      & 54                   &                      &                      &                      & 54            \\ \cline{2-8} 
+				& Programação para Web I                        &                      & 54                   &                      &                      &                      & 54            \\ \cline{2-8} 
+				& Programação para Web II                       &                      &                      & 54                   &                      &                      & 54            \\ \cline{2-8} 
+				& Análise e desenvolvimento de sistemas I       &                      &                      & 81                   &                      &                      & 81            \\ \cline{2-8} 
+				& Análise e desenvolvimento de sistemas II      &                      &                      &                      & 81                   &                      & 81            \\ \cline{2-8} 
+				& Análise e desenvolvimento de sistemas III     &                      &                      &                      &                      & 81                   & 81            \\ \cline{2-8} 
+				& Redes de Computadores                         &                      &                      & 54                   &                      &                      & 54            \\ \cline{2-8} 
+				& Gerência de Projetos                          &                      &                      & 27                   &                      &                      & 27            \\ \cline{2-8} 
+				& Administração de Serviços para Internet       &                      &                      & 54                   &                      &                      & 54            \\ \cline{2-8} 
+				& Programação para Dispositivos Móveis          &                      &                      &                      & 81                   &                      & 81            \\ \cline{2-8} 
+				& Gerência de serviços de TI                    &                      &                      &                      & 54                   &                      & 54            \\ \cline{2-8} 
+				& Segurança da Informação                       &                      &                      &                      &                      & 54                   & 54            \\ \cline{2-8} 
+				& Governança de Tecnologia da Informação        &                      &                      &                      &                      & 54                   & 54            \\ \cline{2-8} 
+				& Componente Curricular Eletivo Técnico I       &                      & 81                   &                      &                      &                      & 81            \\ \cline{2-8} 
+				& Componente Curricular Eletivo Técnico II      &                      &                      &                      & 81                   &                      & 81            \\ \cline{2-8} 
+				& Componente Curricular Eletivo Técnico III     &                      &                      &                      &                      & 81                   & 81            \\ \cline{2-8} 
+				& \multicolumn{6}{l|}{\textbf{Carga Horária Disciplinas Técnicas}}                                                                                                 & \textbf{1296} \\ \hline
+				\multirow{17}{*}{\textbf{Formação Integral}}  & Matemática                                    & 54                   &                      &                      &                      &                      & 54            \\ \cline{2-8} 
+				& Inglês Acadêmico                              & 54                   &                      &                      &                      &                      & 54            \\ \cline{2-8} 
+				& Leitura e Produção de Textos                  & 54                   &                      &                      &                      &                      & 54            \\ \cline{2-8} 
+				& Sociologia do Trabalho                        & 27                   &                      &                      &                      &                      & 27            \\ \cline{2-8} 
+				& Educação Ambiental                            & 27                   &                      &                      &                      &                      & 27            \\ \cline{2-8} 
+				& Legislação Aplicada                           & 27                   &                      &                      &                      &                      & 27            \\ \cline{2-8} 
+				& Componente Curricular Eletivo Politécnico I   &                      & 54                   &                      &                      &                      & 54            \\ \cline{2-8} 
+				& Probabilidade e Estatística                   &                      & 54                   &                      &                      &                      & 54            \\ \cline{2-8} 
+				& Componente Curricular Eletivo Politécnico II  &                      &                      & 54                   &                      &                      & 54            \\ \cline{2-8} 
+				& Componente Curricular Eletivo Politécnico III &                      &                      & 54                   &                      &                      & 54            \\ \cline{2-8} 
+				& Componente Curricular Eletivo Humanas I       &                      &                      & 27                   &                      &                      & 27            \\ \cline{2-8} 
+				& Metodologia e Iniciação Científica            &                      &                      &                      & 54                   &                      & 54            \\ \cline{2-8} 
+				& Componente Curricular Eletivo Politécnico IV  &                      &                      &                      & 54                   &                      & 54            \\ \cline{2-8} 
+				& Componente Curricular Eletivo Politécnico V   &                      &                      &                      &                      & 54                   & 54            \\ \cline{2-8} 
+				& Componente Curricular Eletivo Politécnico VI  &                      &                      &                      &                      & 54                   & 54            \\ \cline{2-8} 
+				& Componente Curricular Eletivo Humanas II      &                      &                      &                      &                      & 27                   & 27            \\ \cline{2-8} 
+				& \multicolumn{6}{l|}{Carga Horária Disciplinas de Formação Integral}                                                                                              & \textbf{729}  \\ \hline
+				\multicolumn{7}{|l|}{\textbf{Carga Horária Disciplinas}}                                                                                                                                                         & \textbf{2025} \\ \hline
+				\multirow{2}{*}{\textbf{TCC}}                 & TCC I                                         &                      &                      &                      & 54                   &                      & -             \\ \cline{2-8} 
+				& TCC II                                        &                      &                      &                      &                      & 54                   & -             \\ \hline
+				\multicolumn{7}{|l|}{\textbf{Atividades complementares}}                                                                                                                                                         & \textbf{400}  \\ \hline
+				\multicolumn{7}{|l|}{\textbf{Carga Horária Total}}                                                                                                                                                               & \textbf{2425} \\ \hline
+			\end{tabular}%
+		}
+	\end{table}
+
+
+\section{Metodologia de Ensino-Aprendizagem}\label{metodologia}
+
+
+\subsection{Trabalhos Discentes}\label{trabdiscentes}
+
+\subsubsection{Disciplinas}\label{dsiciplinas}
+
+\todo[inline]{Texto...}
+
+\subsubsection{Atividades Não Presenciais}
+
+Definição. Arcabouço jurídico.
+
+
+\subsubsection{Avaliação}
+
+\todo[inline]{Texto...}
+
+\section{Certificação}
+
+O Certificado será emitido pelo Instituto Federal de Educação, Ciência e Tecnologia de Goiás, nos termos da Resolução CNE/CES n.º 1, de 8 de junho de 2007.	
+Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimento de Sistemas'', o discente deverá satisfazer as seguintes exigências:
+\begin{itemize}
+	\item Ser aprovado em todas as disciplinas do curso com nota mínima igual a 6,0 (sete) e freqüência igual ou superior a 75\% da carga horária da disciplina;
+	\item Ser aprovado em defesa pública do trabalho de conclusão de curso perante uma banca composta por, no mínimo, três professores (orientador, mais dois professores convidados);
+	\item Possuir pelo menos um certificado que comprove a apresentação (pôster ou oral) de resultados relacionados ao trabalho de conclusão de curso em evento científico (congressos, seminários, simpósios);
+	\item Quitação de todas as obrigações junto ao Câmpus Formosa do Instituto Federal de Educação, Ciência e Tecnologia de Goiás;
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER
+%----------------------------------------------------------------------------------------
+%------------------------------------------------
+\chapterimage{04.jpg} % Chapter heading image
+\chapter{Ementas}
+\vspace{12em}
+
+\todo[inline]{Texto...}
+
+\newpage
+\section{Disciplina A}\label{disc:interacoes}
+\begin{itemize}
+	\item \textbf{Carga horária (hora/aula):} 24
+	\item \textbf{Créditos:} 6
+	\item \textbf{Docente Responsável:} \nameref{WaldeyrMendes}
+	\item \textbf{Conceitos-Chave:}
+	\begin{itemize}
+		\item Conceito A
+		\item Conceito B
+		\item Conceito C
+	\end{itemize}
+	\item \textbf{Ementa:}~\VER{TEXTO}
+	\item \textbf{Bibliografia básica}
+	\begin{enumerate}
+		\item~\VER{TEXTO}
+	\end{enumerate}
+	\item \textbf{Bibliografia complementar}
+	\begin{enumerate}
+		\item~\VER{TEXTO}
+	\end{enumerate}	
+\end{itemize}
+
+
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER X
+%----------------------------------------------------------------------------------------
+%------------------------------------------------
+\chapterimage{05.jpg} % Chapter heading image
+\chapter{Estrutura Física}
+\vspace{12em}
+
+\section{Laboratórios de Informática}
+Dois laboratórios de informática com capacidade para até 30 estudantes, com acesso à Internet, computadores com sistema operacional Linux, softwares diversos.
+
+
+\section{Laboratório de Fisiologia Vegetal}
+Equipado com: estufa de secagem, 3 estereoscópios, 3 microscópicos, geladeira, bancadas, 28 cadeiras, quadro e acervo didático (frutos, sementes e folhas herborizadas). 
+
+\section{Laboratório de Bioqímica}
+Equipado com: Balanças analítica e semi-analítica, chapas de aquecimento (com agitação magnética), analisador bioquímico, capela de fluxo laminar, agitadores de tubo de ensaio, banho-maria, bomba de vácuo, autoclave, estufas, destilador e deionizador de água e outros.
+
+\section{Laboratório de Anatomia e Zoologia}
+Equipado com: Bonecos anatômicos (de abdome) completos, conjuntos anatômicos artificiais de sistemas reprodutores femininos e masculinos, esqueletos completos (artificiais), amostras de animais (do cerrado e de outros biomas) conservados em frascos para visualização, animais empalhados, algumas peças anatômicas naturais de animais, lupas, microscópios, material para coleta de animais e saídas de campo, materiais e reagentes para o empalhamento de animais e outros.
+
+\section{Laboratório de Microscopia e Microbiologia}
+Equipado com:  25 microscópios e material para produção de lâminas (lâminas de corte, lâminas e lamínulas de vidro, corantes, fixadores, etc); Lupas, coleções de laminários e outros.
+
+\section{Laboratório de Físico-Química}
+Equipado com: pHmetros, destilador, capela de exaustão, estufa, banho-maria, balanças analítica e semi-analítica, deionizador, reator, aparelho de ponto de fusão,  e outros.
+
+\section{Laboratório de Águas Residuais}
+Equipado com: Condutivímetros, muflas, banho - maria, bomba de vácuo, analisador de oxigênio dissolvido, turbdímetro, estufa, balança, phmetro, destilador e outros.
+
+\section{Laboratório de Ensino}
+Espaço acadêmico voltado ao desenvolvimento e disseminação de tecnologias educacionais voltadas ao ensino de Ciências e Biologia.  Equipado com: acervo didático constituído por jogos, maquetes e representações físicas de organismos e processos biológicos.
+
+\section{Laboratório de Física e Matemática}
+O Laboratório de Física possui diversos equipamentos que contribui para o desenvolvimento das atividades experimentais nas áreas de mecânica, óptica, hidrostática, termologia e eletricidade.
+
+\section{Biblioteca}
+Biblioteca equipada com áreas de estudo individual e coletivo, 6 computadores com acesso ao portal de periódicos e acervo cerca de 7 mil exemplares, entre livros, livros em braile, cds, dvds e mapas;
+
+\section{Teatro}
+Teatro equipado com som e iluminação específica e acomodações para 320 pessoas sentadas;
+
+\section{Outros Espaços}
+3 salas para estudos coletivos e reuniões equipadas com mesas, cadeiras e televisor.
+
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER X
+%----------------------------------------------------------------------------------------
+%------------------------------------------------
+\chapterimage{06.jpg} % Chapter heading image
+\chapter{Corpo Docente}
+\vspace{12em}
+
+\section{Waldeyr Mendes Cordeiro da Silva}\label{WaldeyrMendes}
+\begin{itemize}
+	\item Formação Básica: Sistemas de Informação e Ciências Biológicas (Bioinformática)
+	\item Titulação Máxima: Doutor em Ciências Biológicas
+	\item Regime de Trabalho: Dedicação Exclusiva
+	\item \includegraphics[scale=.03]{Pictures/lattes}~\href{http://lattes.cnpq.br/2391349697609978}{Lattes: http://lattes.cnpq.br/2391349697609978}
+	\item \includegraphics[scale=.15]{Pictures/orcid}~\href{https://orcid.org/0000-0002-8660-6331}{ORCID: https://orcid.org/0000-0002-8660-6331}
+\end{itemize}
+%----------------------------------------------------------------------------------------
+%	CHAPTER X
+%----------------------------------------------------------------------------------------
+%------------------------------------------------
+\chapterimage{07.jpg} % Chapter heading image
+\chapter{Conheça o IFG}
+\vspace{12em}
+
+\section{Contato}
+
+Instituto Federal de Educação, Ciência e Tecnologia de Goiás - Câmpus Formosa\\
+Site:~\url{http://ifg.edu.br}\\
+Endereço: XXXXX\\
+Telefone: XXXXX \\
+Twitter:XXXXXX \\
+E-mails: XXXXXXX
+
+
+
+
+
+% ----------------------------------------------------------------------------------------
+% 	BIBLIOGRAPHY
+% ----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	CHAPTER X
+%----------------------------------------------------------------------------------------
+%------------------------------------------------
+\chapterimage{08.jpg} % Chapter heading image
+%\chapter*{Referências Bibliográficas}
+%\bibliography{bibliography}
+%\renewcommand\bibname{Referências Bibliográficas}
+
+\chapter*{Referências Bibliográficas}
+
+\vspace{12em}
+%\addcontentsline{toc}{chapter}{\textcolor{verde}{Bibliography}}
+%\section{Books}
+%\addcontentsline{toc}{section}{Books}
+%\printbibliography[heading=bibempty,type=book]
+%\section{Articles}
+%\addcontentsline{toc}{section}{Articles}
+%\printbibliography[heading=bibempty,type=article]
+\printbibliography[heading=bibempty]
+
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	INDEX
+%----------------------------------------------------------------------------------------
+%
+%\cleardoublepage
+%\phantomsection
+%\setlength{\columnsep}{0.75cm}
+%\addcontentsline{toc}{chapter}{\textcolor{verde}{Index}}
+%\printindex
+
+
+\end{document}
