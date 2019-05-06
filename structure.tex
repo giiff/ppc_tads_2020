@@ -313,10 +313,12 @@ innerbottommargin=5pt]{cBox}
 {\begin{tikzpicture}[remember picture,overlay]
 \node[rounded corners=5pt,anchor=north west,inner sep=0pt] at (0,0) {\includegraphics[width=\paperwidth]{\thechapterimage}};
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Commenting the 3 lines below removes the small contents box in the chapter heading
-\fill[color=blue!10!white,opacity=.6] (1cm,0) rectangle (10cm,-10cm); %Tamanho do mini tableofcontents
-\node[rounded corners=5pt,anchor=north west] at (1.1cm,.35cm) {\parbox[t][10cm][t]{10cm}{\huge\bfseries\flushleft \printcontents{l}{1}{\setcounter{tocdepth}{2}}}};
-\draw[anchor=west] (5cm,-12cm) node [rounded corners=5pt,fill=blue!10!white,text opacity=1,draw=blue,draw opacity=1,line width=1.5pt,fill opacity=.6,inner sep=12pt]{\huge\sffamily\bfseries\textcolor{black}{\thechapter. #1\strut\makebox[22cm]{}}};
+%Tamanho do mini table of contents
+\fill[color=blue!10!white,opacity=.6] (.5cm,0) rectangle (9.9cm,-13cm);
+%Conteúdo do mini table of contents 
+\node[rounded corners=10pt,anchor=north west] at (1.1cm,.35cm) {\parbox[t][10cm][t]{10cm}{\huge\bfseries\flushleft \printcontents{l}{1}{\setcounter{tocdepth}{2}}}};
+%Titulo do capitulo
+\draw[anchor=west] (10cm,-10cm) node [rounded corners=5pt,fill=blue!10!white,text opacity=1,draw=blue,draw opacity=1,line width=1.5pt,fill opacity=.6,inner sep=12pt]{\huge\sffamily\bfseries\textcolor{black}{\thechapter. #1\strut\makebox[20cm]{}}};
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{tikzpicture}};
 \end{tikzpicture}}
