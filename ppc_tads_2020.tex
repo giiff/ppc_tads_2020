@@ -273,14 +273,14 @@ O Tecnólogo em Análise e Desenvolvimento de Sistemas:
 			\hline
 			\textbf{Tema}                                                    
 			& \textbf{Disciplina}                                           & \textbf{1º Sem} & \textbf{2º Sem} & \textbf{3º Sem} & \textbf{4º Sem} & \textbf{5º Sem} & \textbf{6º Sem} & \textbf{CH}          \\ \hline
-			\multirow{6}{*}{Bases da Análise de Desenvolvimento de Sistemas} 
+			\multirow{6}{*}{Bases da ADS} 
 			& \nameref{disc:algoritmos}                                         & 54              &                 &                 &                 &                 &                 & \multirow{6}{*}{270} \\ \cline{2-8}
 			& Fundamentos da Computação                                     & 54              &                 &                 &                 &                 &                 &                      \\ \cline{2-8}
 			& \nameref{disc:engsof}                                         & 27              &                 &                 &                 &                 &                 &                      \\ \cline{2-8}
 			& Matemática Elementar                                          & 54              &                 &                 &                 &                 &                 &                      \\ \cline{2-8}
 			& Leitura e Produção de Textos                                  & 27              &                 &                 &                 &                 &                 &                      \\ \cline{2-8}
 			& Inglês Acadêmico                                              & 54              &                 &                 &                 &                 &                 &                      \\ \hline
-			\multirow{5}{*}{Bases da Análise de Desenvolvimento de Sistemas} 
+			\multirow{5}{*}{Bases da ADS} 
 			& Sistemas Operacionais                                         &                 & 54              &                 &                 &                 &                 & \multirow{5}{*}{270} \\ \cline{2-8}
 			& Banco de Dados                                                &                 & 54              &                 &                 &                 &                 &                      \\ \cline{2-8}
 			& \nameref{disc:arqsoft}                                        &                 & 54              &                 &                 &                 &                 &                      \\ \cline{2-8}
@@ -308,10 +308,10 @@ O Tecnólogo em Análise e Desenvolvimento de Sistemas:
 			& Ética e Legislação                                            &                 &                 &                 &                 & 27              &                 &                      \\ \cline{2-8}
 			& Projeto - Aplicação de Inclusão                               &                 &                 &                 &                 & 54              &                 &                      \\ \hline
 			\multirow{6}{*}{Mercado e Informática}                           
-			& Fundamentos de Inteligência Artificial                        &                 &                 &                 &                 &                 & 54              & \multirow{6}{*}{270} \\ \cline{2-8}
+			& \nameref{disc:ia}                                             &                 &                 &                 &                 &                 & 54              & \multirow{6}{*}{270} \\ \cline{2-8}
 			& Segurança da Informação                                       &                 &                 &                 &                 &                 & 27              &                      \\ \cline{2-8}
 			& Empreendedorismo e Marketing Digital                          &                 &                 &                 &                 &                 & 27              &                      \\ \cline{2-8}
-			& \nameref{disc:datascience}                                   &                 &                 &                 &                 &                 & 54              &                      \\ \cline{2-8}
+			& \nameref{disc:datascience}                                    &                 &                 &                 &                 &                 & 54              &                      \\ \cline{2-8}
 			& Visualizalização de Dados e Storytelling                      &                 &                 &                 &                 &                 & 54              &                      \\ \cline{2-8}
 			& Gerência e Governança de Projetos de Tecnologia da Informação &                 &                 &                 &                 &                 & 54              &                      \\ \hline
 			\multicolumn{8}{|l|}{Carga Horária Total (Hora Relógio)}                                                                                                                                                                                     
@@ -397,6 +397,7 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 	Análise de algoritmos; 
 	Elementos de notação assintótica;
 	Algoritmos de ordenação e busca;
+	Estruturas de dados homogêneas e heterogêneas;
 	Listas;
 	Pilhas;
 	Filas;
@@ -428,12 +429,12 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 	\item \textbf{Ementa:} 
 	Software e sua natureza;
 	Conceitos de Engenharia de Software;
-	Aspectos humanos em engenharia de software;
+	Aspectos humanos e éticos em Engenharia de Software;
 	O processo genérico de Engenharia de Software;
-	Modelos de processo de Engenharia de Software
+	Modelos de processo de Engenharia de Software;
 	Filosofia ágil de desenvolvimento de software;
 	Evolução do software;
-	Ferramentas de desenvolvimento de software;
+	Ferramentas de desenvolvimento de software (CASE);
 	\item \textbf{Bibliografia básica}
 	\begin{enumerate}
 		\item \cite{sommerville2011engenharia}
@@ -442,9 +443,10 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 	\end{enumerate}
 	\item \textbf{Bibliografia complementar}
 	\begin{enumerate}
-		\item \cite{prikladnicki2014metodos}~\footnote{Não tem na biblioteca do câmpus Formosa.}
-		\item \cite{hirama2012engenharia}~\footnote{Não tem na biblioteca do câmpus Formosa.}
-		\item \cite{engholm2010engenharia}~\footnote{Não tem na biblioteca do câmpus Formosa.}
+		\item ~\cite{wazlawick2011analise}
+		\item \cite{prikladnicki2014metodos}(\textcolor{red}{Não tem na biblioteca do câmpus Formosa.})
+		\item \cite{hirama2012engenharia}(\textcolor{red}{Não tem na biblioteca do câmpus Formosa.})
+		\item \cite{engholm2010engenharia}(\textcolor{red}{Não tem na biblioteca do câmpus Formosa.})
 	\end{enumerate} 
 \end{itemize}
 
@@ -459,25 +461,25 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 	\item \textbf{Ementa:} 
 	Conceitos de Arquitetura de Software;
 	Atributos de Qualidade;
-	Padrões macro-estruturais (estruturas, estilos e visões);
-	Padrões micro-arquiteturais (\textit{design patterns});
-	Documentação de arquitetura de software;
+	Padrões macro-arquiteturais (estruturas, estilos e visões);
+	Padrões micro-arquiteturais (\textit{Design Patterns});
+	Documentação de arquitetura de software (\textit{Unified Modeling Language} e outros);
 	Arquitetura de software para projetos ágeis;
 	Arquitetura no ciclo de vida de software (requisitos, modelagem, implementação, teste, evolução, reconstrução de legados e governança);
 	Considerações práticas;
-	Normais e padrões pertinentes;
+	Normas e padrões pertinentes;
 	
 	\item \textbf{Bibliografia básica}
 	\begin{enumerate}
-		\item SOMMERVILLE I.; Engenharia de Software. Pearson Universidades, Tradução da 10a ed. americana, São Paulo-SP, 2018.
-		\item PRESSMAN R. S., MAXIM B. R.; Engenharia de Software: Uma abordagem profissional. AMGH Editora, Tradução da 8a ed. americana, Porto Alegre-RS, 2016.
-		\item PIRKLADNICKI R., WILL R., MILANI F.; Métodos Ágeis para Desenvolvimento de Software. Bookman, 1a ed., Porto Alegre-RS, 2014.
+		\item ~\cite{sommerville2011engenharia}
+		\item ~\cite{pressman2016engenharia}
+		\item ~\cite{booch2012uml}
 	\end{enumerate}
 	\item \textbf{Bibliografia complementar}
 	\begin{enumerate}
-		\item FILHO P., PÁDUA W.; Engenharia de software : fundamentos, métodos e padrões. Editora LTC, 8a ed., Rio de Janeiro-RJ, 2009.
-		\item HIRAMA K.; Engenharia de software : qualidade e produtividade com tecnologia. Elsevier: Campus, 1a ed., Rio de Janeiro-RJ, 2011.
-		\item ENGHOLM H .; Engenharia de Software na Prática. Novatec, 1a ed., São Paulo-SP, 2010.
+		\item ~\cite{wazlawick2011analise}
+		\item ~\cite{larman2007utilizando}
+		\item ~\cite{prikladnicki2014metodos} (\textcolor{red}{Não tem na biblioteca do câmpus Formosa.})
 	\end{enumerate}
 \end{itemize}
 \nameref{tab:matriz}
@@ -490,25 +492,22 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 	\item \textbf{Docente Responsável:}~\nameref{ViniciusGomes}
 	\item \textbf{Ementa:} 
 	Conceitos de teste de software;
-	Processo de teste (etapas do teste);
-	Verificação e Validação;
-	Inspeção;
+	Processo de teste e suas etapas;
+	Verificação (revisão e inspeção);
+	Validação (testes caixa preta e branca);
 	Auditoria de Sistemas;
-	Fases do teste;
-	Forma de execução do teste;
-	Técnicas de Teste;
+	Automação de teste;
+	Tendências em técnicas de teste de software (\textit{Test Driven Development} e outras).
 	
 	\item \textbf{Bibliografia básica}
 	\begin{enumerate}
-		\item SOMMERVILLE I.; Engenharia de Software. Pearson Universidades, Tradução da 10a ed. americana, São Paulo-SP, 2018.
-		\item PRESSMAN R. S., MAXIM B. R.; Engenharia de Software: Uma abordagem profissional. AMGH Editora, Tradução da 8a ed. americana, Porto Alegre-RS, 2016.
-		\item PIRKLADNICKI R., WILL R., MILANI F.; Métodos Ágeis para Desenvolvimento de Software. Bookman, 1a ed., Porto Alegre-RS, 2014.
+		\item ~\cite{pressman2016engenharia}
+		\item ~\cite{sommerville2011engenharia}
+		\item ~\cite{rios2006teste} 
 	\end{enumerate}
 	\item \textbf{Bibliografia complementar}
 	\begin{enumerate}
-		\item FILHO P., PÁDUA W.; Engenharia de software : fundamentos, métodos e padrões. Editora LTC, 8a ed., Rio de Janeiro-RJ, 2009.
-		\item HIRAMA K.; Engenharia de software : qualidade e produtividade com tecnologia. Elsevier: Campus, 1a ed., Rio de Janeiro-RJ, 2011.
-		\item ENGHOLM H .; Engenharia de Software na Prática. Novatec, 1a ed., São Paulo-SP, 2010.
+		\item ...
 	\end{enumerate} 	
 \end{itemize}
 
@@ -522,26 +521,23 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 	\item \textbf{Carga horária (hora/aula):} 27
 	\item \textbf{Docente Responsável:}~\nameref{ViniciusGomes}
 	\item \textbf{Ementa:} 
-	Software e sua natureza;
-	Aspectos humanos em engenharia de software;
-	Conceitos de Engenharia de Software;
-	O processo genérico de Engenharia de Software;
-	Modelos de processo de Engenharia de Software
-	Filosofia ágil de desenvolvimento de software;
-	Evolução do software;
-	Ferramentas de desenvolvimento de software;
+	Conceito de requisito e necessidade;
+	Taxonomia e classificação de requisitos;
+	Técnicas de elicitação de requisitos (5W2H, etnografia, entrevista, \textit{workshop}, outros);
+	Processo de Engenharia de Requisitos;
+	Requisitos em ambientes ágeis (\textit{user stories} e outros);
+	Tendências em Engenharia de Requisitos (\textit{Design Thinking}, \textit{Job stories}, \textit{Behavior driven development} e outros)
 	
 	\item \textbf{Bibliografia básica}
 	\begin{enumerate}
-		\item SOMMERVILLE I.; Engenharia de Software. Pearson Universidades, Tradução da 10a ed. americana, São Paulo-SP, 2018.
-		\item PRESSMAN R. S., MAXIM B. R.; Engenharia de Software: Uma abordagem profissional. AMGH Editora, Tradução da 8a ed. americana, Porto Alegre-RS, 2016.
-		\item PIRKLADNICKI R., WILL R., MILANI F.; Métodos Ágeis para Desenvolvimento de Software. Bookman, 1a ed., Porto Alegre-RS, 2014.
+		\item ~\cite{sommerville2011engenharia}
+		\item ~\cite{pressman2016engenharia}
+		\item ~\cite{prikladnicki2014metodos} (\textcolor{red}{Não tem na biblioteca do câmpus Formosa.})
 	\end{enumerate}
 	\item \textbf{Bibliografia complementar}
 	\begin{enumerate}
-		\item FILHO P., PÁDUA W.; Engenharia de software : fundamentos, métodos e padrões. Editora LTC, 8a ed., Rio de Janeiro-RJ, 2009.
-		\item HIRAMA K.; Engenharia de software : qualidade e produtividade com tecnologia. Elsevier: Campus, 1a ed., Rio de Janeiro-RJ, 2011.
-		\item ENGHOLM H .; Engenharia de Software na Prática. Novatec, 1a ed., São Paulo-SP, 2010.
+		\item ~\cite{wazlawick2011analise}
+		\item 
 	\end{enumerate}
 \end{itemize}
 
@@ -553,17 +549,22 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 
 \begin{itemize}
 	\item \textbf{Carga horária (hora/aula):} 27
-	\item \textbf{Docente Responsável:}~\nameref{ViniciusGomes}
+	\item \textbf{Docente Responsável:}~\nameref{ViniciusGomes} e ~\nameref{WaldeyrMendes}
 	\item \textbf{Ementa:} 
-	
-	
+	Conceitos fundamentais em Interação Humano-Computador (IHC) e usabilidade;
+	Conceitos de Engenharia Semiótica;
+	Princípios de experiência do usuário;
+	Ergonomia aplicada à informática;
+	Acessibilidade (diretrizes e acessibilidade para \textit{Web});
+	Métodos e técnicas de avaliação de interface;
+	Psicologia cognitiva aplicada a IHC.
 	\item \textbf{Bibliografia básica}
 	\begin{enumerate}
-		\item ...
+		\item ~\cite{Peirce1977}
 	\end{enumerate}
 	\item \textbf{Bibliografia complementar}
 	\begin{enumerate}
-		\item ...
+		\item ~\cite{moreira1999teorias}
 	\end{enumerate} 
 \end{itemize}
 
@@ -579,7 +580,7 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 	\item \textbf{Docente Responsável:}~\nameref{WaldeyrMendes}
 	\item \textbf{Ementa:} 
 	Conhecimento científico;
-	Metodos de pesquisa; 
+	Métodos de pesquisa; 
 	Revisão bibliográfica;
 	Pesquisa qualitativa;
 	Pesquisa quantitativa; 
@@ -587,15 +588,16 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 	Trabalhos acadêmicos;
 	Portais e bases de conhecimento;
 	Bibliometria;
+	Construção do pré-projeto de trabalho de conclusão de curso (TCC).
 	\item \textbf{Bibliografia básica}
 	\begin{enumerate}
 		\item \cite{Andrade2005introduccao}
 		\item \cite{gil2002elaborar}
-		\item \cite{koche2016fundamentos}
+		\item \cite{wazlawick2017metodologia}
 	\end{enumerate}
 	\item \textbf{Bibliografia complementar}
 	\begin{enumerate}
-		\item \cite{wazlawick2017metodologia}
+		\item \cite{koche2016fundamentos}
 		\item \cite{aquino2017escrever}~\footnote{Não tem na biblioteca do câmpus Formosa.}
 	\end{enumerate} 	
 \end{itemize}
@@ -613,10 +615,39 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 	Big Data: conceito, fontes, tipos de dados e NoSQL;
 	Modelagem, tratamento de dados;
 	Conceitos estatísticos para análise de dados;
-	Métodos de Aprendizagem Automática: Supervisionados (Regressão e Classificação) e Não-supervisionados (Clusterização);
+	Métodos de Aprendizagem Automática: Supervisionados (Regressão, Classificação e outros) e Não-supervisionados (Agrupamentos e outros);
 	Introdução às linguagens Python e R;
-	Bibliometria;
-	\item \textbf{Bibliografia básica}
+	\item \textbf{Bibliografia Básica}
+	\begin{enumerate}
+		\item \cite{barbetta2004estatistica}
+		\item 
+		\item 
+	\end{enumerate}
+	\item \textbf{Bibliografia complementar}
+	\begin{enumerate}
+		\item \cite{farberestatistica}
+		\item
+	\end{enumerate} 	
+\end{itemize}
+
+\nameref{tab:matriz}
+
+
+\newpage
+\section{Fundamentos de Inteligência Artificial}\label{disc:ia}
+
+\begin{itemize}
+	\item \textbf{Carga horária (hora/aula):} 54
+	\item \textbf{Docente Responsável:}~\nameref{WaldeyrMendes}
+	\item \textbf{Ementa:} 
+	Conceitos de Inteligência Arttificial (IA);
+	Algoritmos de busca e otimização;
+	Algoritmos genéticos;
+	Sistemas baseados em conhecimento (Sistemas especialistas e lógica difusa);
+	Machine Learning e seus algoritmos, redes neurais e deep learning, reinforcement learning;
+	Processamento de linguagem natural; 
+	Tendências em IA;
+	\item \textbf{Bibliografia Básica}
 	\begin{enumerate}
 		\item \cite{barbetta2004estatistica}
 		\item 
