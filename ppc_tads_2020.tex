@@ -249,12 +249,15 @@ O Tecnólogo em Análise e Desenvolvimento de Sistemas:
 
 \section{Requisitos para Acesso ao Curso}
 
-\todo[inline]{NNNNNNNNNNNNN}
+\todo[inline]{Prever entrada via vestibular, ENEM e SISU; portador de diploma, transferência interna e externa nos termos dos regulamentos do IFG;}
 
 \section{Forma de Oferta}\label{carga}
 
+\todo[inline]{EaD; Matutino ou Noturno;}
+
 \section{Metodologia de Ensino-Aprendizagem}\label{metodologia}
 
+\todo[inline]{Dissertar sobre a questao dos projetos e semestres tematicos;}
 
 \section{Matriz Curricular}\label{matriz}
 
@@ -266,7 +269,7 @@ O Tecnólogo em Análise e Desenvolvimento de Sistemas:
 % \usepackage{graphicx}
 \begin{table}[]
 	\centering
-	\caption{Matriz Curricular do Curso Superior em Tecnologia em Análise e Desenvolvimento de Sistemas.}
+	\caption{Matriz Curricular do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas.}
 	\label{tab:matriz}
 	\resizebox{\textwidth}{!}{%
 		\begin{tabular}{|l|l|c|c|c|c|c|c|c|}
@@ -275,52 +278,86 @@ O Tecnólogo em Análise e Desenvolvimento de Sistemas:
 			& \textbf{Disciplina}                                           & \textbf{1º Sem} & \textbf{2º Sem} & \textbf{3º Sem} & \textbf{4º Sem} & \textbf{5º Sem} & \textbf{6º Sem} & \textbf{CH}          \\ \hline
 			\multirow{6}{*}{Bases da ADS} 
 			& \nameref{disc:algoritmos}                                         & 54              &                 &                 &                 &                 &                 & \multirow{6}{*}{270} \\ \cline{2-8}
-			& Fundamentos da Computação                                     & 54              &                 &                 &                 &                 &                 &                      \\ \cline{2-8}
+			& \nameref{disc:fundcomp}                                       & 54              &                 &                 &                 &                 &                 &                      \\ \cline{2-8}
 			& \nameref{disc:engsof}                                         & 27              &                 &                 &                 &                 &                 &                      \\ \cline{2-8}
 			& \nameref{disc:matematica}                                     & 54              &                 &                 &                 &                 &                 &                      \\ \cline{2-8}
-			& Leitura e Produção de Textos                                  & 27              &                 &                 &                 &                 &                 &                      \\ \cline{2-8}
+			& \nameref{disc:leitprodtextos}                                 & 27              &                 &                 &                 &                 &                 &                      \\ \cline{2-8}
 			& \nameref{disc:inglacad}                                       & 54              &                 &                 &                 &                 &                 &                      \\ \hline
 			\multirow{5}{*}{Bases da ADS} 
-			& Sistemas Operacionais                                         &                 & 54              &                 &                 &                 &                 & \multirow{5}{*}{270} \\ \cline{2-8}
+			& \nameref{disc:sistop}                                         &                 & 54              &                 &                 &                 &                 & \multirow{5}{*}{270} \\ \cline{2-8}
 			& \nameref{disc:bancodados}                                     &                 & 54              &                 &                 &                 &                 &                      \\ \cline{2-8}
 			& \nameref{disc:arqsoft}                                        &                 & 54              &                 &                 &                 &                 &                      \\ \cline{2-8}
 			& \nameref{disc:estruturadedados}                               &                 & 54              &                 &                 &                 &                 &                      \\ \cline{2-8}
-			& Projeto - Aplicação Computacional                             &                 & 54              &                 &                 &                 &                 &                      \\ \hline
+			& \nameref{disc:algebra}                                        &                 & 54              &                 &                 &                 &                 &                      \\ \hline
 			\multirow{7}{*}{Meio Ambiente e Informática}                     
-			& Programação Orientada a Objetos                               &                 &                 & 27              &                 &                 &                 & \multirow{7}{*}{270} \\ \cline{2-8}
+			& \nameref{disc:poo}                                            &                 &                 & 27              &                 &                 &                 & \multirow{7}{*}{270} \\ \cline{2-8}
+			& \nameref{disc:nosql}                                          &                 &                 & 27              &                 &                 &                 &                      \\ \cline{2-8}			
 			& \nameref{disc:testsoft}                                       &                 &                 & 27              &                 &                 &                 &                      \\ \cline{2-8}
 			& \nameref{disc:engreq}                                         &                 &                 & 54              &                 &                 &                 &                      \\ \cline{2-8}
-			& Redes de Computadores                                         &                 &                 & 54              &                 &                 &                 &                      \\ \cline{2-8}
-			& Relações Étnico-Raciais                                       &                 &                 & 27              &                 &                 &                 &                      \\ \cline{2-8}
-			& Educação Ambiental                                            &                 &                 & 27              &                 &                 &                 &                      \\ \cline{2-8}
-			& Projeto - Aplicação Ambiental                                 &                 &                 & 54              &                 &                 &                 &                      \\ \hline
+			& \nameref{disc:redescomp}                                      &                 &                 & 54              &                 &                 &                 &                      \\ \cline{2-8}
+			& \nameref{disc:educamb}                                        &                 &                 & 27              &                 &                 &                 &                      \\ \cline{2-8}
+			&\nameref{disc:projamb}                                         &                 &                 & 54              &                 &                 &                 &                      \\ \hline
 			\multirow{5}{*}{Sociedade e Informática}                         
-			& Programação para Web                                          &                 &                 &                 & 81              &                 &                 & \multirow{5}{*}{270} \\ \cline{2-8}
-			& Administração de Serviços para a Internet                     &                 &                 &                 & 54              &                 &                 &                      \\ \cline{2-8}
-			& Estatística                                                   &                 &                 &                 & 54              &                 &                 &                      \\ \cline{2-8}
-			& Sociologia do Trabalho                                        &                 &                 &                 & 27              &                 &                 &                      \\ \cline{2-8}
-			& Projeto - Aplicação Social                                    &                 &                 &                 & 54              &                 &                 &                      \\ \hline
+			& \nameref{disc:ppw}                                            &                 &                 &                 & 54              &                 &                 & \multirow{6}{*}{270} \\ \cline{2-8}
+			& \nameref{disc:ihc}                                            &                 &                 &                 & 27              &                 &                 &                      \\ \cline{2-8}
+			& \nameref{disc:asi}                                            &                 &                 &                 & 54              &                 &                 &                      \\ \cline{2-8}
+			& \nameref{disc:probest}                                        &                 &                 &                 & 54              &                 &                 &                      \\ \cline{2-8}
+			& \nameref{disc:etnicoraciais}                                  &                 &                 &                 & 27              &                 &                 &                      \\ \cline{2-8}
+			& \nameref{disc:projsoc}                                        &                 &                 &                 & 54              &                 &                 &                      \\ \hline
 			\multirow{6}{*}{Inclusão e Informática}                          
-			& Experiência do Usuário (Usabilidade, IHC e UX)                &                 &                 &                 &                 & 54              &                 & \multirow{6}{*}{270} \\ \cline{2-8}
-			& Libras                                                        &                 &                 &                 &                 & 27              &                 &                      \\ \cline{2-8}
+     		& \nameref{disc:ppw2}                                           &                 &                 &                 &                 & 54              &                 & \multirow{6}{*}{270} \\ \cline{2-8}
 			& Sistemas Distribuídos                                         &                 &                 &                 &                 & 54              &                 &                      \\ \cline{2-8}
 			& \nameref{disc:metodologia}                                    &                 &                 &                 &                 & 54              &                 &                      \\ \cline{2-8}
-			& Ética e Legislação                                            &                 &                 &                 &                 & 27              &                 &                      \\ \cline{2-8}
+			& Libras                                                        &                 &                 &                 &                 & 27              &                 &                      \\ \cline{2-8}
+			& \nameref{disc:etica}                                          &                 &                 &                 &                 & 27              &                 &                      \\ \cline{2-8}
 			& Projeto - Aplicação de Inclusão                               &                 &                 &                 &                 & 54              &                 &                      \\ \hline
 			\multirow{6}{*}{Mercado e Informática}                           
 			& \nameref{disc:ia}                                             &                 &                 &                 &                 &                 & 54              & \multirow{6}{*}{270} \\ \cline{2-8}
-			& Segurança da Informação                                       &                 &                 &                 &                 &                 & 27              &                      \\ \cline{2-8}
-			& Empreendedorismo e Marketing Digital                          &                 &                 &                 &                 &                 & 27              &                      \\ \cline{2-8}
+			& \nameref{disc:seginfo}                                        &                 &                 &                 &                 &                 & 27              &                      \\ \cline{2-8}
+			& \nameref{disc:empdig}                                         &                 &                 &                 &                 &                 & 27              &                      \\ \cline{2-8}
 			& \nameref{disc:datascience}                                    &                 &                 &                 &                 &                 & 54              &                      \\ \cline{2-8}
-			& Visualizalização de Dados e Storytelling                      &                 &                 &                 &                 &                 & 54              &                      \\ \cline{2-8}
-			& Gerência e Governança de Projetos de Tecnologia da Informação &                 &                 &                 &                 &                 & 54              &                      \\ \hline
-			\multicolumn{8}{|l|}{Carga Horária Total (Hora Relógio)}                                                                                                                                                                                     
+			& \nameref{disc:visstory}                                       &                 &                 &                 &                 &                 & 54              &                      \\ \cline{2-8}
+			& \nameref{disc:govproj}                                        &                 &                 &                 &                 &                 & 54              &                      \\ \hline
+			\multicolumn{8}{|l|}{Carga Horária Total de Disciplinas (Hora Relógio)}                                                                                                                                                                                     
 			& 1620                 \\ \hline
-			\multicolumn{8}{|l|}{Carga Horária Total (Hora Aula)}                                                                                                                                                                                        
+			\multicolumn{8}{|l|}{Carga Horária Total de Disciplinas (Hora Aula)}                                                                                                                                                                                        
 			& 2160                 \\ \hline
+			\multicolumn{8}{|l|}{Carga Horária Atividades Complementares (Hora Relógio)}                                                                                                                                                                                     
+			& 400                 \\ \hline
+			\multicolumn{8}{|l|}{Carga Horária Total do Curso (Hora Relógio)}                                                                                                                                                                                        
+			& 2020                 \\ \hline
+			\multicolumn{8}{|l|}{Carga Horária Total do Curso (Hora Aula)}                                                                                                                                                                                        
+			& 2666                 \\ \hline			
 		\end{tabular}%
 	}
 \end{table}
+
+\subsubsection{Atividades Complementares}
+
+As Atividades Complementares são atividades relacionadas ao curso organizadas em um componente curricular.
+Portanto, são exigidas como um requisito parcial para a formação dos alunos na pós-graduação.
+Elas devem ser desenvolvidas pelo aluno regular, paralelamente às demais disciplinas acadêmicas nos termos da Resolução 16, de 26 de Dezembro de 2011~\cite{Resolucao16De2011}.
+Para isso, a carga horária das atividades será concedida de acordo com os itens abaixo:
+
+\begin{enumerate}
+	\item Visitas Técnicas.
+	\item Atividades Práticas de Campo.
+	\item Participação em eventos técnicos, científicos, acadêmicos, culturais, artísticos e esportivos.
+	\item Participação em comissão organizadora de eventos institucionais e outros.
+	\item Apresentação de trabalhos em feiras, congressos, mostras, seminários e outros.
+	\item Intérprete de línguas em eventos institucionais e outros.
+	\item Monitorias por período mínimo de um semestre letivo.
+	\item Participação em projetos e programas de iniciação científica e tecnológica como aluno titular do projeto, bolsista ou voluntário.
+	\item Participação em programa de iniciação a docência como aluno bolsista ou voluntário.
+	\item Participação em projetos de ensino, pesquisa e extensão com duração mínima de um semestre letivo.
+	\item Cursos e minicursos.
+	\item Estágio curricular não obrigatório igual ou superior a cem horas.
+	\item Participação como representante de turma por um período mínimo de um semestre letivo.
+	\item Participação como representante discente nas instâncias da Instituição por um período mínimo de um semestre letivo.
+	\item Participação em órgãos e entidades estudantis, de classe, sindicais ou comunitárias.
+	\item Realização de trabalho comunitário.
+	\item Participação como ouvinte em defesas de trabalhos acadêmicos.
+\end{enumerate}
 
 
 \subsubsection{Avaliação}
@@ -330,13 +367,21 @@ O Tecnólogo em Análise e Desenvolvimento de Sistemas:
 \section{Certificação}
 
 O Certificado será emitido pelo Instituto Federal de Educação, Ciência e Tecnologia de Goiás, nos termos da Resolução CNE/CES nº 1, de 8 de junho de 2007.	
-Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimento de Sistemas'', o discente deverá satisfazer as seguintes exigências:
-\begin{itemize}
-	\item Ser aprovado em todas as disciplinas do curso com nota mínima igual a 6,0 (seis) e freqüência igual ou superior a 75\% da carga horária da disciplina;
-	\item Ser aprovado em defesa pública do trabalho de conclusão de curso perante uma banca composta por, no mínimo, três professores (orientador, mais dois professores convidados);
-	\item Possuir pelo menos um certificado que comprove a apresentação (pôster ou oral) de resultados relacionados ao trabalho de conclusão de curso em evento científico (congressos, seminários, simpósios);
+Para obter o Certificado de graduado em ``Tecnologia de Análise e Desenvolvimento de Sistemas'', o discente deverá satisfazer as seguintes exigências:
+\begin{enumerate}
+	\item Ser aprovado em todas as disciplinas do curso com nota mínima igual a 6,0 (seis) e freqüência igual ou superior a 75\% da carga horária;
+	\item Ser aprovado em defesa pública do Trabalho de Conclusão de Curso (TCC) perante uma banca composta por, no mínimo, três professores (o orientador e dois ou mais convidados);
+	\item Possuir pelo menos um certificado que comprove a apresentação (pôster ou oral) de resultados relacionados ao TCC em evento científico (congressos, seminários, simpósios);
+	\item Cumprir a carga horária de Atividades Complementares prevista neste Projeto Pedagógico de Curso;
 	\item Quitação de todas as obrigações junto ao Câmpus Formosa do Instituto Federal de Educação, Ciência e Tecnologia de Goiás;
-\end{itemize}
+\end{enumerate}
+
+
+
+
+
+
+
 
 %----------------------------------------------------------------------------------------
 %	CHAPTER
@@ -549,7 +594,7 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 	\item \textbf{Ementa:} 
 	Conceitos básicos;
 	Modelos Relacional e Objeto Relacional;
-	Abstração em modelagem de dados; 
+	Modelagem de dados; 
 	Agregação, Generalização e Cardinalidade; 
 	Linguagem SQL; 
 	Dialeto SQL, Linguagem de Definição de Dados (DDL) e Linguagem de Manipulação de Dados (DML);
@@ -578,6 +623,35 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 \end{itemize}
 
 \nameref{tab:matriz}
+
+
+
+\newpage
+\section{Big Data e Bancos de Dados NoSQL}\label{disc:nosql}
+
+\begin{itemize}
+	\item \textbf{Carga horária (hora/aula):} 27
+	\item \textbf{Docente Responsável:}~\nameref{WaldeyrMendes}
+	\item \textbf{Ementa:} 
+	Big Data: conceito, fontes, tipos de dados;
+	Modelagem, tratamento de dados;	
+	Bancos de dados NoSQL;
+	\item \textbf{Bibliografia Básica}
+	\begin{enumerate}
+		\item 
+		\item 
+		\item 
+	\end{enumerate}
+	\item \textbf{Bibliografia complementar}
+	\begin{enumerate}
+		\item  
+		\item
+	\end{enumerate} 	
+\end{itemize}
+
+\nameref{tab:matriz}
+
+
 
 \newpage
 \section{Arquitetura e Desenho de Software}\label{disc:arqsoft}
@@ -646,7 +720,7 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 \nameref{tab:matriz}
 
 \newpage
-\section{Projeto Computacional}\label{disc:projcomp}
+\section{Introdução à Algebra Linear}\label{disc:algebra}
 
 \begin{itemize}
 	\item \textbf{Carga horária (hora/aula):} 54
@@ -668,10 +742,10 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 \nameref{tab:matriz}
 
 \newpage
-\section{Programação Orientada a Objetos}\label{disc:oriobj}
+\section{Programação Orientada a Objetos}\label{disc:poo}
 
 \begin{itemize}
-	\item \textbf{Carga horária (hora/aula):} 54
+	\item \textbf{Carga horária (hora/aula):} 27
 	\item \textbf{Docente Responsável:}~\nameref{ViniciusGomes}
 	\item \textbf{Ementa:} 
 	Introdução à Programação Orientada a Objetos; 
@@ -821,7 +895,7 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 
 
 \newpage
-\section{Educação Ambiental}\label{disc:educamb}
+\section{Ambiente e Sociedade}\label{disc:educamb}
 
 \begin{itemize}
 	\item \textbf{Carga horária (hora/aula):} 27
@@ -871,16 +945,42 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 \nameref{tab:matriz}
 
 \newpage
-\section{Programação para a Web}\label{disc:ppw}
+\section{Programação para a Web I}\label{disc:ppw}
 
 \begin{itemize}
-	\item \textbf{Carga horária (hora/aula):} 81
+	\item \textbf{Carga horária (hora/aula):} 54
 	\item \textbf{Docente Responsável:}~\nameref{ViniciusGomes}
 	\item \textbf{Ementa:} 
 
 	Introdução ao desenvolvimento de aplicações web;
 	Estudo da arquitetura web, prototipação e criação de páginas estáticas e dinâmicas com ferramentas de desenvolvimento utilizando HTML, CSS, DOM, AJAX, JAVASCRIPT e XML;
-	Programação web dinâmica avançada com J2EE incluindo Containers, Servlets, Java Server Pages (JSP), JSF, MVC, Cookies, Sessões, JAAS e Filtros, acesso a Banco de Dados com JDBC, frameworks de persistência objeto-relacional e web services.
+
+	\item \textbf{Bibliografia básica}
+	\begin{enumerate}
+		\item 
+	\end{enumerate}
+	\item \textbf{Bibliografia complementar}
+	\begin{enumerate}
+		\item
+		\item 
+	\end{enumerate}
+\end{itemize}
+
+\nameref{tab:matriz}
+
+
+\newpage
+\section{Programação para a Web II}\label{disc:ppw2}
+
+\begin{itemize}
+	\item \textbf{Carga horária (hora/aula):} 54
+	\item \textbf{Docente Responsável:}~\nameref{ViniciusGomes}
+	\item \textbf{Ementa:} 
+	Programação Web dinâmica com arquitetura cliente servidor;
+	APIs;
+	REST;
+	Acesso a Banco de Dados;
+	Frameworks Web;
 	
 	\item \textbf{Bibliografia básica}
 	\begin{enumerate}
@@ -960,37 +1060,7 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 \nameref{tab:matriz}
 
 \newpage
-\section{Sociologia do Trabalho}\label{disc:soctrab}
-
-\begin{itemize}
-	\item \textbf{Carga horária (hora/aula):} 27
-	\item \textbf{Docente Responsável:}~\nameref{ViniciusGomes}
-	\item \textbf{Ementa:} 
-	
-	Introdução à sociologia do trabalho;
-	Divisão do trabalho e capitalismo;
-	Metamorfoses do trabalho;
-	O trabalho e as formações urbanas.
-	Trabalho e a relação campo/cidade;
-	O trabalho e a organização do espaço no campo e na cidade;
-	Trabalho e movimentos sociais;
-	Mundialização do capital, migrações e trabalho.
-	
-	\item \textbf{Bibliografia básica}
-	\begin{enumerate}
-		\item 
-	\end{enumerate}
-	\item \textbf{Bibliografia complementar}
-	\begin{enumerate}
-		\item
-		\item 
-	\end{enumerate}
-\end{itemize}
-
-\nameref{tab:matriz}
-
-\newpage
-\section{Projeto Social}\label{disc:projamb}
+\section{Projeto Social}\label{disc:projsoc}
 
 \begin{itemize}
 	\item \textbf{Carga horária (hora/aula):} 54
@@ -1010,7 +1080,7 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 \end{itemize}
 
 \newpage
-\section{Experiência do Usuário}\label{disc:expuser}
+\section{Interação Humano-Computador}\label{disc:ihc}
 
 \begin{itemize}
 	\item \textbf{Carga horária (hora/aula):} 27
@@ -1075,8 +1145,6 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 	\item \textbf{Docente Responsável:}~\nameref{WaldeyrMendes}
 	\item \textbf{Ementa:} 
 	Introdução à Ciência de Dados;
-	Big Data: conceito, fontes, tipos de dados e NoSQL;
-	Modelagem, tratamento de dados;
 	Conceitos estatísticos para análise de dados;
 	Métodos de Aprendizagem Automática: Supervisionados (Regressão, Classificação e outros) e Não-supervisionados (Agrupamentos e outros);
 	Introdução às linguagens Python e R;
@@ -1125,6 +1193,32 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 
 \nameref{tab:matriz}
 
+
+
+
+\newpage
+\section{Ética e Legislação}\label{disc:etica}
+
+\begin{itemize}
+	\item \textbf{Carga horária (hora/aula):} 27
+	\item \textbf{Docente Responsável:}~\nameref{WaldeyrMendes}
+	\item \textbf{Ementa:} 
+	Lei Geral de Proteção de Dados;
+	\item \textbf{Bibliografia Básica}
+	\begin{enumerate}
+		\item \cite{cartilha2012}
+		\item 
+		\item 
+	\end{enumerate}
+	\item \textbf{Bibliografia complementar}
+	\begin{enumerate}
+		\item 
+		\item
+	\end{enumerate} 	
+\end{itemize}
+
+\nameref{tab:matriz}
+
 \newpage
 \section{Segurança da Informação}\label{disc:seginfo}
 
@@ -1143,8 +1237,6 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 	Firewall;
 	Mecanismos de criptografia (simétrica e assimétrica);
 	Assinatura digital e certificados digitais;
-	Lei Geral de Proteção de Dados.
-
 	\item \textbf{Bibliografia Básica}
 	\begin{enumerate}
 		\item \cite{cartilha2012}
@@ -1161,7 +1253,7 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 \nameref{tab:matriz}
 
 \newpage
-\section{Empreendedorismo e Marketing Digital}\label{disc:empmkt}
+\section{Empreendedorismo Digital}\label{disc:empdig}
 
 \begin{itemize}
 	\item \textbf{Carga horária (hora/aula):} 27
@@ -1219,7 +1311,7 @@ Para obter o Certificado de graduado em ``Tecnologia em Análise e Desenvolvimen
 \nameref{tab:matriz}]
 
 \newpage
-\section{Gerência e Governança de Projetos de Tecnologia da Informação}\label{disc:govproj}
+\section{Governança de Projetos de Tecnologia da Informação}\label{disc:govproj}
 
 \begin{itemize}
 	\item \textbf{Carga horária (hora/aula):} 54
@@ -1410,39 +1502,36 @@ Com a atualização da Matriz Curricular do Curso Superior em Tecnologia em Aná
 			Inglês Acadêmico                                              & Inglês Instrumental + Análise Orientada a Objetos                         \\
 			Sistemas Operacionais                                         & Sistemas Operacionais                                                     \\
 			Banco de Dados                                                & Banco de Dados I                                                          \\
-			Arquitetura e Projeto de Software                             & Arquitetura e Projeto de Software                                         \\
+			Big Data e Banco de Dados NoSQL                               & Fundamentos de Sistemas de Informação                                     \\			
+			Arquitetura e Desenho de Software                             & Arquitetura e Projeto de Software                                         \\
 			Estrutura de Dados                                            & Estrutura de Dados I                                                      \\
-			Projeto Computacional                                         & Métodos e Técnicas de Programação                                         \\
+			Álgebra Linear                                                & Cálculo Diferencial e Integral                                            \\
 			Programação Orientada a Objetos                               & Programação Orientada a Objetos                                           \\
 			Verificação, Validação e Teste de Software                    & Qualidade de Software                                                     \\
 			Técnicas de Engenharia de Requisitos                          & Engenharia de Requisitos                                                  \\
 			Redes de Computadores                                         & Redes de Computadores                                                     \\
-			Relações Étnico-Raciais                                       & Relações étnico-raciais, História e Cultura Afro-Brasuleira e Indígena    \\
+			Relações Étnico-Raciais                                       & Relações étnico-raciais, História e Cultura Afro-Brasileira e Indígena    \\
 			Educação Ambiental                                            & Educação Ambiental                                                        \\
 			Projeto Ambiental                                             & Lógica Computacional                                                      \\
-			Programação para Web                                          & Programação para Web I                                                    \\
+			Programação para Web I                                        & Programação para Web I                                                    \\
 			Administração de Serviços para a Internet                     & Administração de Serviços para Internet                                   \\
-			Introdução à Probabilidade e Estatística                      & Introdução à Probabilidade e Estatística + Cálculo Diferencial e Integral \\
-			Sociologia do Trabalho                                        & Sociologia do Trabalho                                                    \\
-			Projeto Social                                                & Programação para Web II                                                   \\
-			Experiência do Usuário (Usabilidade, IHC e UX)                & Interface Homem Computador + Fundamentos de Sistemas de Informação        \\
+			Introdução à Probabilidade e Estatística                      & Introdução à Probabilidade e Estatística + Tópicos avançados I            \\
+			Programação para Web II                                       & Programação para Web II                                                   \\
+			Interface Homem Computador                                    & Interface Homem Computador                                                \\
 			Libras                                                        & Libras                                                                    \\
 			Sistemas Distribuídos                                         & Sistemas Distribuídos                                                     \\
-			Metodologia da Pesquisa Científica                            & Metodologia da Pesquisa Científica + Tópicos avançados I                  \\
+			Metodologia da Pesquisa Científica                            & Metodologia da Pesquisa Científica + Sociologia do Trabalho               \\
 			Ética e Legislação                                            & Ética e Legislação Aplicada à Informática                                 \\
-			Projeto de Inclusão                                           & -                                                                         \\
+			Projeto de Inclusão                                           & Métodos e Técnicas de Programação                                         \\
 			Fundamentos de Inteligência Artificial                        & Estrutura de Dados II                                                     \\
 			Segurança da Informação                                       & Segurança e Auditoria de Sistemas                                         \\
-			Empreendedorismo e Marketing Digital                          & Tópicos Avançados II                                                      \\
+			Empreendedorismo Digital                                      & Tópicos Avançados II                                                      \\
 			Fundamentos de Data Science                                   & Banco de Dados II                                                         \\
 			Visualizalização de Dados e Storytelling                      & Computação Gráfica e Sistemas Multimídia                                  \\
-			Gerência e Governança de Projetos de Tecnologia da Informação & Gerência de Projetos                                                      \\ \bottomrule
+			Projeto Social                                                & -                                                                         \\			
+			Governança de Projetos de Tecnologia da Informação            & Gerência de Projetos                                                      \\ \bottomrule
 		\end{tabular}%
 	}
 \end{table}
-
-
-
-
 
 \end{document}
