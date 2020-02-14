@@ -1,0 +1,434 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Angelotti 2010]{angelotti2010}
+\abntrefinfo{Angelotti}{ANGELOTTI}{2010}
+{ANGELOTTI, E.~S. \emph{Banco de dados}. [S.l.]: Livro Tecnico, 2010.}
+
+\bibitem[{a}o]{Istoe2019}
+\abntrefinfo{{a}o}{{a}O}{}
+{{a}O, R. \emph{Falta profissional de software no Brasil}.
+Dispon{\'\i}vel em:
+  \url{https://www.istoedinheiro.com.br/falta-profissional-de-software-no-brasil/}.}
+
+\bibitem[Ascencio e Ara\'{u}jo 2010]{ascencio2010estruturas}
+\abntrefinfo{Ascencio e Ara\'{u}jo}{ASCENCIO; ARA\'{u}JO}{2010}
+{ASCENCIO, A. F.~G.; ARA\'{u}JO, G. S.~d. Estruturas de dados: algoritmos,
+  an\'{a}lise da complexidade e implementaç\~{o}es em java e c/c++.
+\emph{S\~{a}o Paulo: Perarson Prentice Halt}, v.~3, 2010.}
+
+\bibitem[Barbetta, Reis e Bornia 2004]{barbetta2004estatistica}
+\abntrefinfo{Barbetta, Reis e Bornia}{BARBETTA; REIS; BORNIA}{2004}
+{BARBETTA, P.~A.; REIS, M.~M.; BORNIA, A.~C. \emph{Estat\'{i}stica: para cursos
+  de engenharia e inform\'{a}tica}. [S.l.]: Atlas S\~{a}o Paulo, 2004. v.~3.}
+
+\bibitem[Booch, Rumbaugh e Jacobson 2012]{booch2012uml}
+\abntrefinfo{Booch, Rumbaugh e Jacobson}{BOOCH; RUMBAUGH; JACOBSON}{2012}
+{BOOCH, G.; RUMBAUGH, J.; JACOBSON, I. \emph{UML: guia do usu{\'a}rio}. [S.l.]:
+  Elsevier Brasil, 2012.}
+
+\bibitem[BRASIL 1996]{Lei19394De1996}
+\abntrefinfo{BRASIL}{BRASIL}{1996}
+{BRASIL. \emph{Lei nº 9.394 de 20 de Dezembro de 1996}: Lei de diretrizes e
+  bases da educaç\~{a}o. 1996.}
+
+\bibitem[BRASIL 2001]{ParacerCNES435De2011}
+\abntrefinfo{BRASIL}{BRASIL}{2001}
+{BRASIL. \emph{Parecer CNE/CES 436/2001}. 2001.}
+
+\bibitem[BRASIL 2002]{Resolucao03De2002}
+\abntrefinfo{BRASIL}{BRASIL}{2002}
+{BRASIL. \emph{Resoluç\~{a}o nº 3, de 18 de Dezembro de 2002}: Institui as
+  diretrizes curriculares nacionais gerais para a organizaç\~{a}o e o
+  funcionamento dos cursos superiores de tecnologia. 2002.}
+
+\bibitem[BRASIL 2004]{Decreto5154De2004}
+\abntrefinfo{BRASIL}{BRASIL}{2004}
+{BRASIL. \emph{Decreto nº 5.154, de 23 de Julho de 2004}: Regulamenta o art.
+  36 e os arts. 39 a 41 da lei nº 9.394, de 20 de dezembro de 1996, que
+  estabelece as diretrizes e bases da educaç\~{a}o nacional, e d\'{a} outras
+  provid\^{e}ncias. 2004.}
+
+\bibitem[BRASIL 2006]{Decreto5773De2006}
+\abntrefinfo{BRASIL}{BRASIL}{2006}
+{BRASIL. \emph{Bases Nacional Comum Curriculare (BNCC)}: Disp\~{o}e sobre o
+  exerc\'{i}cio das funç\~{o}es de regulaç\~{a}o, supervis\~{a}o e
+  avaliaç\~{a}o de instituiç\~{o}es de educaç\~{a}o superior e cursos
+  superiores de graduaç\~{a}o e seqüenciais no sistema federal de ensino.
+  2006.}
+
+\bibitem[Brasil 2012]{cartilha2012}
+\abntrefinfo{Brasil}{BRASIL}{2012}
+{BRASIL, C.~G. da~Internet~no. \emph{Cartilha de segurança para internet :
+  vers\~{a}o 4.0}. [S.l.]: CERT.br, 2012.}
+
+\bibitem[Brasscom]{Brasscom2019}
+\abntrefinfo{Brasscom}{BRASSCOM}{}
+{BRASSCOM. \emph{Em um pa\'{i}s com desemprego de 13\%, sobram vagas na
+  \'{a}rea de tecnologia}.
+Dispon{\'\i}vel em:
+  \url{https://brasscom.org.br/em-um-pais-com-desemprego-de-13-sobram-vagas-na-area-de-tecnologia/}.}
+
+\bibitem[Castells 2003]{castells2003}
+\abntrefinfo{Castells}{CASTELLS}{2003}
+{CASTELLS, M. \emph{A gal\'{a}xia da Internet : reflex\~{o}es sobre a Internet,
+  os neg\'{o}cios e a sociedade}. [S.l.]: Zahar, 2003.}
+
+\bibitem[Cormen et al. 2002]{cormen2002algoritmos}
+\abntrefinfo{Cormen et al.}{CORMEN et al.}{2002}
+{CORMEN, T.~H. et al. Algoritmos: teoria e pr\'{a}tica.
+\emph{Editora Campus}, v.~2, p.~2, 2002.}
+
+\bibitem[Cougo 1997]{cougo1997}
+\abntrefinfo{Cougo}{COUGO}{1997}
+{COUGO, P.~S. \emph{Modelagem conceitual e projeto de banco de dados}. [S.l.]:
+  Elsevier, 1997.}
+
+\bibitem[Date 2004]{date2004}
+\abntrefinfo{Date}{DATE}{2004}
+{DATE, C.~J. \emph{Introdu{\c{c}}{\~a}o a sistemas de bancos de dados}. [S.l.]:
+  Elsevier Brasil, 2004.}
+
+\bibitem[de., Carissimi e Sirineo. 2010]{oliveiraromulo2010}
+\abntrefinfo{de., Carissimi e Sirineo.}{DE.; CARISSIMI; SIRINEO.}{2010}
+{DE., O. R.~S.; CARISSIMI, A. d.~S.; SIRINEO., T.~S. \emph{Sistemas
+  operacionais}. [S.l.]: Bookman, 2010.}
+
+\bibitem[Deitel, Deitel e Choffnes 2010]{deiteldeitelchoffnes2010}
+\abntrefinfo{Deitel, Deitel e Choffnes}{DEITEL; DEITEL; CHOFFNES}{2010}
+{DEITEL, H.~M.; DEITEL, P.~J.; CHOFFNES, D.~R. \emph{Sistemas operacionais}.
+  3ª. ed. [S.l.]: Pearson Prentice Hall, 2010.}
+
+\bibitem[Deitel e Deitel 2010]{deiteldeitel2010}
+\abntrefinfo{Deitel e Deitel}{DEITEL; DEITEL}{2010}
+{DEITEL, P.; DEITEL, H. \emph{Java: como programar}. 8. ed. [S.l.]: Pearson,
+  2010.}
+
+\bibitem[Ducket 2010]{ducket2010}
+\abntrefinfo{Ducket}{DUCKET}{2010}
+{DUCKET, J. \emph{Introduç\~{a}o \`{a} programaç\~{a}o web com HTML, XHTML e
+  CSS}. [S.l.]: Ci\^{e}ncia Moderna, 2010.}
+
+\bibitem[Elmasri e Navathe 2011]{elmasrinavathe2011}
+\abntrefinfo{Elmasri e Navathe}{ELMASRI; NAVATHE}{2011}
+{ELMASRI, R.; NAVATHE, S.~B. \emph{Sistemas de banco de dados}. [S.l.]: Pearson
+  Addison Wesley, 2011.}
+
+\bibitem[Farber e Larson 2016]{farberestatistica}
+\abntrefinfo{Farber e Larson}{FARBER; LARSON}{2016}
+{FARBER, E.; LARSON, R. \emph{Estat\'{i}stica Aplicada}. [S.l.]: Pearson
+  Brasil, 2016. v.~4.}
+
+\bibitem[Farrer et al. 1999]{farrer1999algoritmos}
+\abntrefinfo{Farrer et al.}{FARRER et al.}{1999}
+{FARRER, H. et al. \emph{Algoritmos estruturados}. [S.l.]: LTC, 1999.}
+
+\bibitem[Filho 2003]{de2003engenharia}
+\abntrefinfo{Filho}{FILHO}{2003}
+{FILHO, W. de P.~P. \emph{Engenharia de software}. [S.l.]: LTC, 2003. v.~2.}
+
+\bibitem[Forbellone e Ebersp\"{a}cher 2005]{forbelloneeberspacher2005}
+\abntrefinfo{Forbellone e Ebersp\"{a}cher}{FORBELLONE; EBERSP\"{a}CHER}{2005}
+{FORBELLONE, A. L.~V.; EBERSP\"{a}CHER, H.~F. \emph{L\'{o}gica de
+  programaç\~{a}o: a construç\~{a}o de algor\'{i}tmos e estruturas de dados}.
+  3. ed. [S.l.]: Pearson Prentice Hall, 2005.}
+
+\bibitem[Fowler e Tortello 2005]{fowlertortello2005}
+\abntrefinfo{Fowler e Tortello}{FOWLER; TORTELLO}{2005}
+{FOWLER, M.; TORTELLO, J. \emph{UML essencial: um breve guia para a
+  linguagem-padrão de modelagem de objetos}. [S.l.]: Bookman, 2005.}
+
+\bibitem[Gamma et al. 2000]{gammahelmjohnsonvlissides2000}
+\abntrefinfo{Gamma et al.}{GAMMA et al.}{2000}
+{GAMMA, E. et al. \emph{Padr\~{o}es de projeto: soluç\~{o}es reutiliz\'{a}veis
+  de software orientado a objetos}. [S.l.]: Bookman, 2000.}
+
+\bibitem[Gesser 2009]{audrei2009}
+\abntrefinfo{Gesser}{GESSER}{2009}
+{GESSER, A. \emph{Libras: que l\'{i}ngua \'{e} essa? Crenças e preconceitos em
+  torno da l\'{i}ngua de sinais e da realidade surda}. [S.l.]: Ci\^{e}ncia
+  Moderna, 2009.}
+
+\bibitem[Goi\'{a}s]{Empreendeder2017}
+\abntrefinfo{Goi\'{a}s}{GOI\'{a}S}{}
+{GOI\'{a}S, E. em. \emph{Empresas de TI movimentam R\$ 750 milh\~{o}es em
+  Goi\'{a}s}.
+Dispon{\'\i}vel em:
+  \url{https://www.empreenderemgoias.com.br/2017/05/25/empresas-de-software-movimentam-r-750-milhoes-em-goias/}.}
+
+\bibitem[Goodwin, McPherson e McCombie 2016]{goodwin2016}
+\abntrefinfo{Goodwin, McPherson e McCombie}{GOODWIN; MCPHERSON; MCCOMBIE}{2016}
+{GOODWIN, S.; MCPHERSON, J.~D.; MCCOMBIE, W.~R. Coming of age: ten years of
+  next-generation sequencing technologies.
+\emph{Nature Reviews Genetics}, Nature Publishing Group, v.~17, n.~6, p.~333,
+  2016.}
+
+\bibitem[Grossman]{Convergencia2019}
+\abntrefinfo{Grossman}{GROSSMAN}{}
+{GROSSMAN, L.~O. \emph{TI precisa de 420 mil novos profissionais at\'{e} 2024}.
+Dispon{\'\i}vel em:
+  \url{https://www.convergenciadigital.com.br/cgi/cgilua.exe/sys/start.htm?UserActiveTemplate=site&infoid=50558&sid=46}.}
+
+\bibitem[Gu\'{e}rin et al.]{guerin2001}
+\abntrefinfo{Gu\'{e}rin et al.}{GU\'{e}RIN et al.}{}
+{GU\'{e}RIN, F. et al. \emph{Compreender o trabalho para transform\'{a}-lo: a
+  pr\'{a}tica da ergonomia}. [S.l.]: USP, Escola Polit\'{e}cnica, Dep. de
+  Engenharia da Produç\~{a}o: Fundaç\~{a}o Vanzollini.}
+
+\bibitem[Hirama 2012]{hirama2012engenharia}
+\abntrefinfo{Hirama}{HIRAMA}{2012}
+{HIRAMA, K. \emph{Engenharia de software: qualidade e produtividade com
+  tecnologia}. [S.l.]: Elsevier Brasil, 2012.}
+
+\bibitem[Hogan 2011]{hogan2011}
+\abntrefinfo{Hogan}{HOGAN}{2011}
+{HOGAN, B.~P. \emph{Web design para desenvolvedores: um guia para as
+  ferramentas e t\'{e}cnicas de design para programadores}. [S.l.]: Ci\^{e}ncia
+  Moderna, 2011.}
+
+\bibitem[IFG]{Resolucao16De2011}
+\abntrefinfo{IFG}{IFG}{}
+{IFG. \emph{Resoluç\~{a}o 16, de 26 de Dezembro de 2011}: Institui o
+  regulamento das atividades complementares dos cursos de graduaç\~{a}o do
+  instituto federal de educaç\~{a}o, ci\^{e}ncia e tecnologia de goi\'{a}s.}
+
+\bibitem[Jr 2010]{engholm2010engenharia}
+\abntrefinfo{Jr}{JR}{2010}
+{JR, H. E. \emph{Engenharia de software na pr\'{a}tica}. [S.l.]: Novatec
+  Editora, 2010.}
+
+\bibitem[Kurse 2013]{kurose2013}
+\abntrefinfo{Kurse}{KURSE}{2013}
+{KURSE, J.~F. \emph{Redes de computadores: uma abordagem top-down}. [S.l.]:
+  Pearson Addison Wesley, 2013.}
+
+\bibitem[Lafore e Machado 2004]{lafore2004estruturas}
+\abntrefinfo{Lafore e Machado}{LAFORE; MACHADO}{2004}
+{LAFORE, R.; MACHADO, E.~V. \emph{Estruturas de dados \& Algoritmos em Java}.
+  [S.l.]: Ci\^{e}ncia Moderna, 2004.}
+
+\bibitem[Larman, Braga e João 2008]{larmanbragatortellojoao2008}
+\abntrefinfo{Larman, Braga e João}{LARMAN; BRAGA; JOãO}{2008}
+{LARMAN, C.; BRAGA, R. T.~V.; JOãO, T. \emph{Utilizando UML e padrões: uma
+  introdução à análise e ao projeto orientados a objetos e ao
+  desenvolvimento iterativo}. [S.l.]: Bookman, 2008.}
+
+\bibitem[Laureano e Olsen 2010]{laureanoolsen2010}
+\abntrefinfo{Laureano e Olsen}{LAUREANO; OLSEN}{2010}
+{LAUREANO, M. A.~P.; OLSEN, D.~R. \emph{Sistemas operacionais}. [S.l.]: Livro
+  T\'{e}cnico, 2010.}
+
+\bibitem[Lesk 2019]{lesk2019}
+\abntrefinfo{Lesk}{LESK}{2019}
+{LESK, A. \emph{Introduction to bioinformatics}. [S.l.]: Oxford university
+  press, 2019.}
+
+\bibitem[Machado e Maia 2013]{machadomaia2013}
+\abntrefinfo{Machado e Maia}{MACHADO; MAIA}{2013}
+{MACHADO, F.~B.; MAIA, L.~P. \emph{Arquitetura de sistemas operacionais}.
+  [S.l.]: LTC Editora, 2013.}
+
+\bibitem[Machado 2014]{machado2014}
+\abntrefinfo{Machado}{MACHADO}{2014}
+{MACHADO, F. N.~R. \emph{Banco de dados: projeto e implementação}. [S.l.]:
+  Ed. Érica, 2014.}
+
+\bibitem[Manzano 2010]{manzano2010algoritmos}
+\abntrefinfo{Manzano}{MANZANO}{2010}
+{MANZANO, J. A.~N. \emph{Algoritmos l{\'o}gica para desenvolvimento de
+  programa{\c{c}}{\~a}o de computadores}. [S.l.]: Saraiva Educa{\c{c}}{\~a}o
+  SA, 2010.}
+
+\bibitem[Marcondes 2009]{marcondes2009}
+\abntrefinfo{Marcondes}{MARCONDES}{2009}
+{MARCONDES, C.~A. \emph{HTML 4.0 Fundamental: a base da programaç\~{a}o para
+  WEB}. [S.l.]: Érica, 2009.}
+
+\bibitem[McLaughlin, Pollice e West 2010]{mclaughlinpollicewest2010}
+\abntrefinfo{McLaughlin, Pollice e West}{MCLAUGHLIN; POLLICE; WEST}{2010}
+{MCLAUGHLIN, B.; POLLICE, G.; WEST, D. \emph{Use a cabeça!: an\'{a}lise e
+  projeto orientado ao objeto}. [S.l.]: Alta Books, 2010.}
+
+\bibitem[Milani 2008]{milani2008}
+\abntrefinfo{Milani}{MILANI}{2008}
+{MILANI, A. \emph{PostgreSQL-Guia do Programador}. [S.l.]: Novatec Editora,
+  2008.}
+
+\bibitem[Minetto 2007]{minetto2007}
+\abntrefinfo{Minetto}{MINETTO}{2007}
+{MINETTO, E.~L. \emph{Frameworks para desenvolvimento PHP}. [S.l.]: Novatec,
+  2007.}
+
+\bibitem[Monteiro 2007]{monteiro2007}
+\abntrefinfo{Monteiro}{MONTEIRO}{2007}
+{MONTEIRO, M.~A. \emph{Introdução a organização de computadores}. [S.l.]:
+  LTC, 2007.}
+
+\bibitem[Moraes 2010]{moraes2010}
+\abntrefinfo{Moraes}{MORAES}{2010}
+{MORAES, A. F.~d. \emph{Redes de computadores: Fundamentos}. [S.l.]: Érica,
+  2010.}
+
+\bibitem[Nielsen 2007]{nielsen2007}
+\abntrefinfo{Nielsen}{NIELSEN}{2007}
+{NIELSEN, J. \emph{Usabilidade na web: projetando websites com qualidade}.
+  [S.l.]: Elsevier, 2007.}
+
+\bibitem[Olsen 2010]{olsen2010}
+\abntrefinfo{Olsen}{OLSEN}{2010}
+{OLSEN, D.~R. \emph{Redes de computadores}. [S.l.]: Livro T\'{e}cnico, 2010.}
+
+\bibitem[Peirce 2010]{Peirce2010}
+\abntrefinfo{Peirce}{PEIRCE}{2010}
+{PEIRCE, C.~S. \emph{Semi\'{o}tica}. 4. ed. [S.l.]: Perspectiva, 2010.}
+
+\bibitem[Pressman e Maxim 2016]{pressman2016engenharia}
+\abntrefinfo{Pressman e Maxim}{PRESSMAN; MAXIM}{2016}
+{PRESSMAN, R.; MAXIM, B. \emph{Engenharia de Software}. [S.l.]: McGraw Hill
+  Brasil, 2016. v.~8.}
+
+\bibitem[Prikladnicki, Willi e Milani 2014]{prikladnicki2014metodos}
+\abntrefinfo{Prikladnicki, Willi e Milani}{PRIKLADNICKI; WILLI; MILANI}{2014}
+{PRIKLADNICKI, R.; WILLI, R.; MILANI, F. \emph{M\'{e}todos \'{a}geis para
+  desenvolvimento de software}. [S.l.]: Bookman Editora, 2014.}
+
+\bibitem[Rodrigues 2010]{rodrigues2010}
+\abntrefinfo{Rodrigues}{RODRIGUES}{2010}
+{RODRIGUES, A. \emph{Desevolvimento para internet}. [S.l.]: Livro T\'{e}cnico,
+  2010.}
+
+\bibitem[Santos 2003]{santos2003}
+\abntrefinfo{Santos}{SANTOS}{2003}
+{SANTOS, R. \emph{Introduç\~{a}o \`{a} programaç\~{a}o orientada a objetos
+  usando Java}. [S.l.]: Campos, 2003.}
+
+\bibitem[Setubal e Meidanis 1997]{setubal1997}
+\abntrefinfo{Setubal e Meidanis}{SETUBAL; MEIDANIS}{1997}
+{SETUBAL, J.~C.; MEIDANIS, J. \emph{Introduction to computational molecular
+  biology}. [S.l.]: PWS Pub. Boston, 1997.}
+
+\bibitem[Silberschatz, Sundarshan e Korth 2016]{silberschatz2016}
+\abntrefinfo{Silberschatz, Sundarshan e Korth}{SILBERSCHATZ; SUNDARSHAN;
+  KORTH}{2016}
+{SILBERSCHATZ, A.; SUNDARSHAN, S.; KORTH, H.~F. \emph{Sistema de banco de
+  dados}. [S.l.]: Elsevier Brasil, 2016.}
+
+\bibitem[Silva 2008]{silva2008}
+\abntrefinfo{Silva}{SILVA}{2008}
+{SILVA, M.~S. \emph{Construindo sites com CSS e (X)HTML: sites controlados por
+  folhas em estilo cascata}. [S.l.]: Novatec, 2008.}
+
+\bibitem[Silva 2014]{silva2014a}
+\abntrefinfo{Silva}{SILVA}{2014a}
+{SILVA, M.~S. \emph{Criando sites com HTML: sites de alta qualidade com HTML e
+  CSS}. [S.l.]: Novatec, 2014.}
+
+\bibitem[Silva 2014]{silva2014}
+\abntrefinfo{Silva}{SILVA}{2014b}
+{SILVA, M.~S. \emph{HTML 5: a linguagem de marcaç\~{a}o que revolucionou a
+  web}. [S.l.]: Novatec, 2014.}
+
+\bibitem[Silva 2007]{silva2007estrutura}
+\abntrefinfo{Silva}{SILVA}{2007}
+{SILVA, O. Q.~d. Estrutura de dados e algoritmos usando c.
+\emph{Rio de Janeiro: Ci\^{e}ncia Moderna}, 2007.}
+
+\bibitem[Smith 2004]{smith2004}
+\abntrefinfo{Smith}{SMITH}{2004}
+{SMITH, R.~W. \emph{Linux: ferramentas poderosas}. [S.l.]: Ed. Ci\^{e}ncia
+  Moderna, 2004.}
+
+\bibitem[Software]{Abes2018}
+\abntrefinfo{Software}{SOFTWARE}{}
+{SOFTWARE, A.~A. {a}oo Brasileira das Empresas~de. \emph{Mercado Brasileiro de
+  Software}: Panoramas e tend\^{e}ncias. S\~{a}o Paulo: [s.n.].
+Dispon{\'\i}vel em: \url{http://central.abessoftware.com.br}.}
+
+\bibitem[Sommerville 2011]{sommerville2011engenharia}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2011}
+{SOMMERVILLE, I. \emph{Engenharia de software}. [S.l.]: Pearson Brasil, 2011.}
+
+\bibitem[Sommerville 2019]{sommerville2019engenharia}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2019}
+{SOMMERVILLE, I. \emph{Engenharia de software}. [S.l.]: Pearson Brasil, 2019.}
+
+\bibitem[Souza 2008]{souza2008}
+\abntrefinfo{Souza}{SOUZA}{2008}
+{SOUZA, J.~a. N.~d. \emph{L\'{o}gica para ci\^{e}ncia da computaç\~{a}o: uma
+  introduç\~{a}o concisa}. [S.l.]: Elsevier, 2008.}
+
+\bibitem[Stallings 2010]{stallings2010}
+\abntrefinfo{Stallings}{STALLINGS}{2010}
+{STALLINGS, W. \emph{Arquitetura e organizaç\~{a}o de computadores}. [S.l.]:
+  Pearson, 2010.}
+
+\bibitem[Steven 2001]{steven2001}
+\abntrefinfo{Steven}{STEVEN}{2001}
+{STEVEN, J. \emph{Cultura da interface : como o computador transforma nossa
+  maneira de criar e comunicar}. [S.l.]: Zahar, 2001.}
+
+\bibitem[Szwarcfiter e Markenzon 1994]{szwarcfiter1994estruturas}
+\abntrefinfo{Szwarcfiter e Markenzon}{SZWARCFITER; MARKENZON}{1994}
+{SZWARCFITER, J.~L.; MARKENZON, L. \emph{Estruturas de Dados e seus
+  Algoritmos}. [S.l.]: Livros T\'{e}cnicos e Cient\'{i}ficos, 1994. v.~2.}
+
+\bibitem[Tanenbaum 2008]{tanenbaum2008}
+\abntrefinfo{Tanenbaum}{TANENBAUM}{2008}
+{TANENBAUM, A.~S. \emph{Sistemas operacionais: projeto e implementação}.
+  [S.l.]: Bookman, 2008.}
+
+\bibitem[Tanenbaum 2010]{tanenbaum2010}
+\abntrefinfo{Tanenbaum}{TANENBAUM}{2010}
+{TANENBAUM, A.~S. \emph{Sistemas operacionais modernos}. [S.l.]: Prentice-Hall
+  do Brasil, 2010.}
+
+\bibitem[Tanenbaum e Austin 2013]{tanenbaumaustin2013}
+\abntrefinfo{Tanenbaum e Austin}{TANENBAUM; AUSTIN}{2013}
+{TANENBAUM, A.~S.; AUSTIN, T. \emph{Organização estruturada de computadores}.
+  [S.l.]: Pearson Prentice Hall, 2013.}
+
+\bibitem[Teruel 2012]{teruel2012}
+\abntrefinfo{Teruel}{TERUEL}{2012}
+{TERUEL, E.~C. \emph{Arquitetura de sistemas para web com Java utilizando
+  design patterns e frameworks}. [S.l.]: Ci\^{e}ncia Moderna, 2012.}
+
+\bibitem[Toby 2007]{toby2007}
+\abntrefinfo{Toby}{TOBY}{2007}
+{TOBY, T. \emph{Projeto e modelagem de banco de dados}. [S.l.]: Elsevier,
+  2007.}
+
+\bibitem[Torres 2014]{torres2014}
+\abntrefinfo{Torres}{TORRES}{2014}
+{TORRES, G. \emph{Redes de computadores}. [S.l.]: Novaterra, 2014.}
+
+\bibitem[Torres 2015]{torres2015}
+\abntrefinfo{Torres}{TORRES}{2015}
+{TORRES, G. \emph{Montagem de micros: Para autodidatas, estudantes e
+  t\'{e}cnicos}. [S.l.]: Novaterra, 2015.}
+
+\bibitem[Toscani 2012]{toscani2012}
+\abntrefinfo{Toscani}{TOSCANI}{2012}
+{TOSCANI, L.~V. \emph{Complexidade de algoritmos: an\'{a}lise, projeto e
+  m\'{e}todos}. [S.l.]: Bookman, 2012.}
+
+\bibitem[Verli 2014]{verli2014}
+\abntrefinfo{Verli}{VERLI}{2014}
+{VERLI, H. Bioinform{\'a}tica: da biologia {\`a} flexibilidade molecular.
+Sociedade Brasileira de Bioqu{\'\i}mica e Biologia Molecular, 2014.}
+
+\bibitem[Wazlawick 2011]{wazlawick2011analise}
+\abntrefinfo{Wazlawick}{WAZLAWICK}{2011}
+{WAZLAWICK, R.~S. An{\'a}lise e projeto de sistemas de informa{\c{c}}{\~a}o
+  orientados a objetos.
+Elsevier Editora, 2011.}
+
+\bibitem[Weber 2012]{weber2012}
+\abntrefinfo{Weber}{WEBER}{2012}
+{WEBER, R.~F. \emph{Fundamentos de Arquitetura de Computadores}. [S.l.]:
+  Bookman, 2012.}
+
+\end{thebibliography}

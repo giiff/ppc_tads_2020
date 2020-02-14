@@ -4,6 +4,10 @@ Este repositório tem como finalidade guardar a memória dos arquivos da reformu
 
 Pontos a serem discutidos e consolidados:
 
-* Impacto na carga horária dos professores de cada área
 * Bibliografia das ementas
+* Dupla certificação
+* Possibilidade de aproveitamento de FIC para Disciplinas desde compatível em carga horária e ementa
+* Impacto na carga horária dos professores de cada área
+* Adiamento da entrada para segundo semestre de cada ano
 * Revisão geral
+
