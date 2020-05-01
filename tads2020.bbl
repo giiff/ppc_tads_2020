@@ -220,6 +220,11 @@ Dispon{\'\i}vel em:
   pr\'{a}tica da ergonomia}. [S.l.]: USP, Escola Polit\'{e}cnica, Dep. de
   Engenharia da Produç\~{a}o: Fundaç\~{a}o Vanzollini, 2001.}
 
+\bibitem[Hines, Montgomery e Goldsman 2000]{hines2000probabilidade}
+\abntrefinfo{Hines, Montgomery e Goldsman}{HINES; MONTGOMERY; GOLDSMAN}{2000}
+{HINES, W.~W.; MONTGOMERY, D.~C.; GOLDSMAN, D.~M. \emph{Probabilidade E
+  Estat{\'\i}stica Na Engenharia .} [S.l.]: Grupo Gen-LTC, 2000.}
+
 \bibitem[Hirama 2012]{hirama2012engenharia}
 \abntrefinfo{Hirama}{HIRAMA}{2012}
 {HIRAMA, K. \emph{Engenharia de software: qualidade e produtividade com
@@ -295,6 +300,11 @@ Dispon{\'\i}vel em:
   introdução à análise e ao projeto orientados a objetos e ao
   desenvolvimento iterativo}. [S.l.]: Bookman, 2008.}
 
+\bibitem[Larson, Farber e Patarra 2015]{larson2015estatistica}
+\abntrefinfo{Larson, Farber e Patarra}{LARSON; FARBER; PATARRA}{2015}
+{LARSON, R.; FARBER, B.; PATARRA, C. traduc{\~a}o~t{\'e}cnica.
+  \emph{Estat{\'\i}stica aplicada}. 6. ed. [S.l.]: Pearson, 2015.}
+
 \bibitem[Laureano e Olsen 2010]{laureanoolsen2010}
 \abntrefinfo{Laureano e Olsen}{LAUREANO; OLSEN}{2010}
 {LAUREANO, M. A.~P.; OLSEN, D.~R. \emph{Sistemas operacionais}. [S.l.]: Livro
@@ -320,6 +330,12 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Machado}{MACHADO}{2014}
 {MACHADO, F. N.~R. \emph{Banco de dados: projeto e implementação}. [S.l.]:
   Ed. Érica, 2014.}
+
+\bibitem[Magalh{\~a}es e Lima 2002]{magalhaes2002noccoes}
+\abntrefinfo{Magalh{\~a}es e Lima}{MAGALH{\~A}ES; LIMA}{2002}
+{MAGALH{\~A}ES, M.~N.; LIMA, A. C.~P. de. \emph{No{\c{c}}{\~o}es de
+  probabilidade e estat{\'\i}stica}. [S.l.]: Editora da Universidade de S{\~a}o
+  Paulo, 2002. v.~5.}
 
 \bibitem[Manzano 2010]{manzano2010algoritmos}
 \abntrefinfo{Manzano}{MANZANO}{2010}
@@ -458,6 +474,11 @@ Dispon{\'\i}vel em: \url{http://central.abessoftware.com.br}.}
 \abntrefinfo{Souza}{SOUZA}{2008}
 {SOUZA, J.~a. N.~d. \emph{L\'{o}gica para ci\^{e}ncia da computaç\~{a}o: uma
   introduç\~{a}o concisa}. [S.l.]: Elsevier, 2008.}
+
+\bibitem[Spiegel e Stephens 2000]{spiegel2000estatistica}
+\abntrefinfo{Spiegel e Stephens}{SPIEGEL; STEPHENS}{2000}
+{SPIEGEL, M.~R.; STEPHENS, L.~J. \emph{Estat{\'\i}stica: Cole{\c{c}}{\~a}o
+  Schaum}. [S.l.]: Bookman, 2000.}
 
 \bibitem[Stallings 2010]{stallings2010}
 \abntrefinfo{Stallings}{STALLINGS}{2010}
