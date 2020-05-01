@@ -93,24 +93,28 @@
 \usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
 \usepackage[alf]{abntex2cite}	% Citações padrão ABNT
 \usepackage[utf8]{inputenc} 
+%\usepackage{bibentry}
+%\nobibliography*
+%\usepackage{biblatex}
+
 
 % ---
 % Configurações do pacote backref
 % Usado sem a opção hyperpageref de backref
-\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+%\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
 % Texto padrão antes do número das páginas
-\renewcommand{\backref}{}
+%\renewcommand{\backref}{}
 % Define os textos da citação
-%\renewcommand*{\backrefalt}[4]{
-%	\ifcase #1 %
-%		Nenhuma citação no texto.%
-%	\or
-%		Citado na página #2.%
-%	\else
-%		Citado #1 vezes nas páginas #2.%
-%	\fi}%
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
 % ---
-
+\newcommand{\vermelho}[1]{\begingroup\color{red}#1\endgroup}
 % ---
 % Informações do documento
 % ---
@@ -314,16 +318,21 @@
 	\item \textbf{Duração:} 3 anos
 	\item \textbf{Número de Vagas:} 30 vagas anuais
 	\item \textbf{Local de Oferta:} Instituto Federal de Goiás - Câmpus Formosa
-	\item \textbf{Reitor:} NNNNNNNNNNNNN
-	\item \textbf{Pró-Reitora de Ensino:} NNNNNNNNNNNNN
-	\item \textbf{Pró-Reitor de Pesquisa, Pós-Graduação e Inovação:} NNNNNNNNNNNNN
-	\item \textbf{Diretoria de Pós-Graduação:} NNNNNNNNNNNNN
+	\item \textbf{Reitor:} Jeronimo Rodrigues da Silva
+	\item \textbf{Pró-Reitora de Ensino:} Oneida Cristina Gomes Barcelos Irigon
+	\item \textbf{Diretoria de Educação Básica e Superior:} Maria Valeska Lopes Viana
+	\item \textbf{ Coordenação de Ensino Superior:} Viníscius Sousa Ferreira
 \end{itemize}
 
 \section*{\textbf{Comissão de Elaboração do Projeto de Curso}}
+\vermelho{Falta sair a portaria com os nomes}
 \begin{itemize}[label=\bfseries]
 	\item Eliana Carla Rodrigues
+	\item Laredo Rennan Pereira Santos
+	\item Mario Teixeira Lemes
 	\item Milene Galvao Bueno
+	\item Sirlon Thiago Diniz Lacerda
+	\item Uyara Ferreira Silva
 	\item Waldeyr Mendes Cordeiro da Silva
 \end{itemize}
 
@@ -657,11 +666,11 @@ Para obter o \textbf{Certificado de  de Técnico de Nível Médio em ``Desenvolv
 	Recursividade;
 	Algoritmos e meio ambiente;
 	\item \textbf{Bibliografia básica}
+
 	\begin{enumerate}
 		\item \cite{cormen2002algoritmos}
 		\item \cite{manzano2010algoritmos}
 		\item \cite{lafore2004estruturas}
-		
 	\end{enumerate}
 	\item \textbf{Bibliografia complementar}
 	\begin{enumerate}
@@ -722,11 +731,17 @@ Para obter o \textbf{Certificado de  de Técnico de Nível Médio em ``Desenvolv
 	Função composta, inversa, afim, quadrática, modular, exponencial, logarítmica e trigonométrica; Noções de limite e derivada.
 	\item \textbf{Bibliografia básica}
 	\begin{enumerate}
-		\item 
+		\item \cite{iezzi2013fundamentos01}
+		\item \cite{iezzi2013fundamentos02}
+		\item \cite{iezzi2013fundamentos03}
 	\end{enumerate}
 	\item \textbf{Bibliografia complementar}
 	\begin{enumerate}
-		\item 
+		\item \cite{iezzi2013fundamentos06}
+		\item \cite{iezzi2013fundamentos08}
+		\item \cite{giovanni2002matematica}
+		\item \cite{thomas2002calculo}
+		\item \cite{morettin2017estatistica}
 	\end{enumerate}	
 \end{itemize}
 \nameref{tab:matriz}
@@ -924,14 +939,14 @@ Para obter o \textbf{Certificado de  de Técnico de Nível Médio em ``Desenvolv
 	\item \textbf{Bibliografia básica}
 	\begin{enumerate}
 		\item \cite{cormen2002algoritmos}
-		\item \cite{tanembaumlangsamaugenstein2010}
+		\item \cite{tenenbaum2004estruturas}
 		\item \cite{lafore2004estruturas}
 	\end{enumerate}
 	\item \textbf{Bibliografia complementar}
 	\begin{enumerate}
 		\item \cite{ascencio2010estruturas}
 		\item \cite{szwarcfiter1994estruturas}	
-		\item \cite{eldeweissgalante2009}
+		\item \cite{edelweiss2009estruturas}
 		\item \cite{silva2007estrutura}
 		\item \cite{forbelloneeberspacher2005}	
 	\end{enumerate}	
@@ -958,11 +973,17 @@ Para obter o \textbf{Certificado de  de Técnico de Nível Médio em ``Desenvolv
 	Aplicações da Álgebra Linear;
 	\item \textbf{Bibliografia básica}
 	\begin{enumerate}
-		\item 
+		\item \cite{anton2001algebra}
+		\item \cite{kolman2006introduccao}
+		\item \cite{lipschutz1992algebra}
 	\end{enumerate}
 	\item \textbf{Bibliografia complementar}
 	\begin{enumerate}
-		\item 	
+		\item \cite{boldrini1980algebra}
+		\item \cite{winterle1987algebra}
+		\item \cite{iezzi2013fundamentos01}
+		\item \cite{iezzi2013fundamentos06}
+		\item \cite{giovanni2002matematica}
 	\end{enumerate}	
 \end{itemize}
 \nameref{tab:matriz}
@@ -1104,15 +1125,15 @@ Para obter o \textbf{Certificado de  de Técnico de Nível Médio em ``Desenvolv
 	\begin{enumerate}
 		\item \cite{olsen2010}
 		\item \cite{torres2014}
-		\item \cite{tanembaum2014}
+		\item \cite{tanenbaum2011redes}
 	\end{enumerate}
 	\item \textbf{Bibliografia complementar}
 	\begin{enumerate}
 		\item \cite{moraes2010}
 		\item \cite{kurose2013}
-		\item \cite{morimoto2011}
+		\item \cite{morimoto2010redes}
 		\item \cite{anderson2011}
-		\item \cite{roxo2013}
+		\item \cite{Giavaroto2013}
 	\end{enumerate}
 \end{itemize}
 \nameref{tab:matriz}
@@ -1930,9 +1951,7 @@ Teatro equipado com som e iluminação específica e acomodações para 320 pess
 % ------------------------------------------------------------
 \postextual % pós-textual
 % ------------------------------------------------------------
-
 \chapter{Apêndice}\label{apendice}
-
 \newpage
 \section*{Compatibilidade com a Matriz Curricular Anterior}
 \indent
@@ -1979,14 +1998,14 @@ Com a atualização da Matriz Curricular do Curso Superior de Tecnologia em Aná
 			\nameref{5_metodologia}         & Metodologia da Pesquisa Científica + Sociologia do Trabalho               \\
 			\nameref{5_libras}              & Libras                                                                    \\
 			\nameref{5_etica}               & Ética e Legislação Aplicada à Informática                                 \\
-			\nameref{5_sd}                 & Sistemas Distribuídos                                                     \\
+			\nameref{5_sd}                  & Sistemas Distribuídos                                                     \\
 			\nameref{5_lab}                 & Métodos e Técnicas de Programação                                         \\ \midrule	
 			\nameref{6_ia}                  & Estrutura de Dados II                                                     \\
 			\nameref{6_seginfo}             & Segurança e Auditoria de Sistemas                                         \\
 			\nameref{6_empdig}              & Tópicos Avançados II                                                      \\
 			\nameref{6_datascience}         & Banco de Dados II                                                         \\
-			\nameref{6_visstory}            & Computação Gráfica e Sistemas Multimídia                                  \\
-			\nameref{6_opt}                 & Gerência de Projetos                                                       \\ \bottomrule
+			\nameref{6_opta}                & Computação Gráfica e Sistemas Multimídia                                  \\
+			\nameref{6_optb}                & Gerência de Projetos                                                       \\ \bottomrule
 		\end{tabular}%
 	}
 \end{table}

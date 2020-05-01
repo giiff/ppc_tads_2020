@@ -3,17 +3,21 @@
 \setlength{\labelsep}{0pt}\begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.6 }
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Al 2011]{anderson2011}
+\abntrefinfo{Al}{AL}{2011}
+{AL, B.~R. A. \emph{Use A Cabeça! Redes De Computadores}. 1. ed. [S.l.]: Alta
+  Books, 2011.}
 
 \bibitem[Angelotti 2010]{angelotti2010}
 \abntrefinfo{Angelotti}{ANGELOTTI}{2010}
 {ANGELOTTI, E.~S. \emph{Banco de dados}. [S.l.]: Livro Tecnico, 2010.}
 
-\bibitem[{a}o]{Istoe2019}
-\abntrefinfo{{a}o}{{a}O}{}
-{{a}O, R. \emph{Falta profissional de software no Brasil}.
-Dispon{\'\i}vel em:
-  \url{https://www.istoedinheiro.com.br/falta-profissional-de-software-no-brasil/}.}
+\bibitem[Anton e Rorres 2001]{anton2001algebra}
+\abntrefinfo{Anton e Rorres}{ANTON; RORRES}{2001}
+{ANTON, H.; RORRES, C. \emph{{\'A}lgebra linear com aplica{\c{c}}{\~o}es}.
+  [S.l.]: Bookman Porto Alegre, 2001. v.~8.}
 
 \bibitem[Ascencio e Ara\'{u}jo 2010]{ascencio2010estruturas}
 \abntrefinfo{Ascencio e Ara\'{u}jo}{ASCENCIO; ARA\'{u}JO}{2010}
@@ -25,6 +29,11 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Barbetta, Reis e Bornia}{BARBETTA; REIS; BORNIA}{2004}
 {BARBETTA, P.~A.; REIS, M.~M.; BORNIA, A.~C. \emph{Estat\'{i}stica: para cursos
   de engenharia e inform\'{a}tica}. [S.l.]: Atlas S\~{a}o Paulo, 2004. v.~3.}
+
+\bibitem[Boldrini et al. 1980]{boldrini1980algebra}
+\abntrefinfo{Boldrini et al.}{BOLDRINI et al.}{1980}
+{BOLDRINI, J.~L. et al. \emph{{\'A}lgebra linear}. [S.l.]: Harper \& Row,
+  1980.}
 
 \bibitem[Booch, Rumbaugh e Jacobson 2012]{booch2012uml}
 \abntrefinfo{Booch, Rumbaugh e Jacobson}{BOOCH; RUMBAUGH; JACOBSON}{2012}
@@ -66,12 +75,17 @@ Dispon{\'\i}vel em:
 {BRASIL, C.~G. da~Internet~no. \emph{Cartilha de segurança para internet :
   vers\~{a}o 4.0}. [S.l.]: CERT.br, 2012.}
 
-\bibitem[Brasscom]{Brasscom2019}
-\abntrefinfo{Brasscom}{BRASSCOM}{}
+\bibitem[Brasscom 2019]{Brasscom2019}
+\abntrefinfo{Brasscom}{BRASSCOM}{2019}
 {BRASSCOM. \emph{Em um pa\'{i}s com desemprego de 13\%, sobram vagas na
-  \'{a}rea de tecnologia}.
+  \'{a}rea de tecnologia}. 2019.
 Dispon{\'\i}vel em:
   \url{https://brasscom.org.br/em-um-pais-com-desemprego-de-13-sobram-vagas-na-area-de-tecnologia/}.}
+
+\bibitem[Brookshear 2013]{brookshearleeoliveira}
+\abntrefinfo{Brookshear}{BROOKSHEAR}{2013}
+{BROOKSHEAR, J.~G. \emph{Ci{\^e}ncia da Computa{\c{c}}{\~a}o-: Uma Vis{\~a}o
+  Abrangente}. [S.l.]: Bookman Editora, 2013.}
 
 \bibitem[Castells 2003]{castells2003}
 \abntrefinfo{Castells}{CASTELLS}{2003}
@@ -108,10 +122,20 @@ Dispon{\'\i}vel em:
 {DEITEL, P.; DEITEL, H. \emph{Java: como programar}. 8. ed. [S.l.]: Pearson,
   2010.}
 
+\bibitem[Deitel e Deitel 2006]{deiteldeitel2006}
+\abntrefinfo{Deitel e Deitel}{DEITEL; DEITEL}{2006}
+{DEITEL, P.~M.; DEITEL, H.~M. \emph{C : como programar}. 5. ed. [S.l.]: Pearson
+  Prentice Hall, 2006.}
+
 \bibitem[Ducket 2010]{ducket2010}
 \abntrefinfo{Ducket}{DUCKET}{2010}
 {DUCKET, J. \emph{Introduç\~{a}o \`{a} programaç\~{a}o web com HTML, XHTML e
   CSS}. [S.l.]: Ci\^{e}ncia Moderna, 2010.}
+
+\bibitem[Edelweiss e Galante 2009]{edelweiss2009estruturas}
+\abntrefinfo{Edelweiss e Galante}{EDELWEISS; GALANTE}{2009}
+{EDELWEISS, N.; GALANTE, R. \emph{Estruturas de Dados: Volume 18}. [S.l.]:
+  Bookman Editora, 2009.}
 
 \bibitem[Elmasri e Navathe 2011]{elmasrinavathe2011}
 \abntrefinfo{Elmasri e Navathe}{ELMASRI; NAVATHE}{2011}
@@ -153,12 +177,28 @@ Dispon{\'\i}vel em:
   torno da l\'{i}ngua de sinais e da realidade surda}. [S.l.]: Ci\^{e}ncia
   Moderna, 2009.}
 
-\bibitem[Goi\'{a}s]{Empreendeder2017}
-\abntrefinfo{Goi\'{a}s}{GOI\'{a}S}{}
+\bibitem[Giavaroto e Santos 2013]{Giavaroto2013}
+\abntrefinfo{Giavaroto e Santos}{GIAVAROTO; SANTOS}{2013}
+{GIAVAROTO, S. C.~R.; SANTOS, G. R.~d. \emph{Backtrack linux: auditoria e teste
+  de invas\~{a}o em redes de computadores}. [S.l.]: Ci\^{e}ncia Moderna, 2013.}
+
+\bibitem[Giovanni, Bonjorno e Jr 2002]{giovanni2002matematica}
+\abntrefinfo{Giovanni, Bonjorno e Jr}{GIOVANNI; BONJORNO; JR}{2002}
+{GIOVANNI, J.~R.; BONJORNO, J.~R.; JR, J.~R. G. \emph{Matem{\'a}tica
+  fundamental: uma nova abordagem}. S{\~a}o Paulo, SP: FTD, 2002.}
+
+\bibitem[Goi\'{a}s 2017]{Empreendeder2017}
+\abntrefinfo{Goi\'{a}s}{GOI\'{a}S}{2017}
 {GOI\'{a}S, E. em. \emph{Empresas de TI movimentam R\$ 750 milh\~{o}es em
-  Goi\'{a}s}.
+  Goi\'{a}s}. 2017.
 Dispon{\'\i}vel em:
   \url{https://www.empreenderemgoias.com.br/2017/05/25/empresas-de-software-movimentam-r-750-milhoes-em-goias/}.}
+
+\bibitem[Gonçalves 2007]{goncalves2007}
+\abntrefinfo{Gonçalves}{GONçALVES}{2007}
+{GONçALVES, E. \emph{Desenvolvendo aplicaç\~{o}es Web com com JSP, Servlets,
+  Javaserver Faces, Hibernate, EJB 3 Persistence e Ajax}. [S.l.]: Ci\^{e}ncia
+  Moderna, 2007.}
 
 \bibitem[Goodwin, McPherson e McCombie 2016]{goodwin2016}
 \abntrefinfo{Goodwin, McPherson e McCombie}{GOODWIN; MCPHERSON; MCCOMBIE}{2016}
@@ -167,17 +207,18 @@ Dispon{\'\i}vel em:
 \emph{Nature Reviews Genetics}, Nature Publishing Group, v.~17, n.~6, p.~333,
   2016.}
 
-\bibitem[Grossman]{Convergencia2019}
-\abntrefinfo{Grossman}{GROSSMAN}{}
+\bibitem[Grossman 2019]{Convergencia2019}
+\abntrefinfo{Grossman}{GROSSMAN}{2019}
 {GROSSMAN, L.~O. \emph{TI precisa de 420 mil novos profissionais at\'{e} 2024}.
+  2019.
 Dispon{\'\i}vel em:
   \url{https://www.convergenciadigital.com.br/cgi/cgilua.exe/sys/start.htm?UserActiveTemplate=site&infoid=50558&sid=46}.}
 
-\bibitem[Gu\'{e}rin et al.]{guerin2001}
-\abntrefinfo{Gu\'{e}rin et al.}{GU\'{e}RIN et al.}{}
+\bibitem[Gu\'{e}rin et al. 2001]{guerin2001}
+\abntrefinfo{Gu\'{e}rin et al.}{GU\'{e}RIN et al.}{2001}
 {GU\'{e}RIN, F. et al. \emph{Compreender o trabalho para transform\'{a}-lo: a
   pr\'{a}tica da ergonomia}. [S.l.]: USP, Escola Polit\'{e}cnica, Dep. de
-  Engenharia da Produç\~{a}o: Fundaç\~{a}o Vanzollini.}
+  Engenharia da Produç\~{a}o: Fundaç\~{a}o Vanzollini, 2001.}
 
 \bibitem[Hirama 2012]{hirama2012engenharia}
 \abntrefinfo{Hirama}{HIRAMA}{2012}
@@ -190,16 +231,53 @@ Dispon{\'\i}vel em:
   ferramentas e t\'{e}cnicas de design para programadores}. [S.l.]: Ci\^{e}ncia
   Moderna, 2011.}
 
+\bibitem[Iezzi 2013]{iezzi2013fundamentos01}
+\abntrefinfo{Iezzi}{IEZZI}{2013a}
+{IEZZI, G. \emph{Fundamentos de matem{\'a}tica elementar - 1}: Conjuntos
+  fun{\c{c}}oes. [S.l.: s.n.], 2013. v.~1.}
+
+\bibitem[Iezzi 2013]{iezzi2013fundamentos03}
+\abntrefinfo{Iezzi}{IEZZI}{2013b}
+{IEZZI, G. \emph{Fundamentos de matem{\'a}tica elementar - 3}: Trigonometria.
+  [S.l.]: Atual Editora, 2013. v.~3.}
+
+\bibitem[Iezzi 2013]{iezzi2013fundamentos06}
+\abntrefinfo{Iezzi}{IEZZI}{2013c}
+{IEZZI, G. \emph{Fundamentos de matem{\'a}tica elementar - 6}: Complexos,
+  polinômios, equações. [S.l.]: Atual Editora, 2013. v.~6.}
+
+\bibitem[Iezzi, Dolce e Murakami 2013]{iezzi2013fundamentos02}
+\abntrefinfo{Iezzi, Dolce e Murakami}{IEZZI; DOLCE; MURAKAMI}{2013}
+{IEZZI, G.; DOLCE, O.; MURAKAMI, C. \emph{Fundamentos de matem{\'a}tica
+  elementar - 2}: Logaritmos. [S.l.]: Atual Editora, 2013. v.~2.}
+
+\bibitem[Iezzi, Murakami e Machado 2013]{iezzi2013fundamentos08}
+\abntrefinfo{Iezzi, Murakami e Machado}{IEZZI; MURAKAMI; MACHADO}{2013}
+{IEZZI, G.; MURAKAMI, C.; MACHADO, N.~J. \emph{Fundamentos de matem{\'a}tica
+  elementar - 8}: Limites, derivadas, noções de integral. [S.l.]: Atual
+  Editora, 2013. v.~8.}
+
 \bibitem[IFG]{Resolucao16De2011}
 \abntrefinfo{IFG}{IFG}{}
 {IFG. \emph{Resoluç\~{a}o 16, de 26 de Dezembro de 2011}: Institui o
   regulamento das atividades complementares dos cursos de graduaç\~{a}o do
   instituto federal de educaç\~{a}o, ci\^{e}ncia e tecnologia de goi\'{a}s.}
 
+\bibitem[IstoÉ 2019]{Istoe2019}
+\abntrefinfo{IstoÉ}{ISTOÉ}{2019}
+{ISTOÉ. \emph{Falta profissional de software no Brasil}. 2019.
+Dispon{\'\i}vel em:
+  \url{https://www.istoedinheiro.com.br/falta-profissional-de-software-no-brasil/}.}
+
 \bibitem[Jr 2010]{engholm2010engenharia}
 \abntrefinfo{Jr}{JR}{2010}
 {JR, H. E. \emph{Engenharia de software na pr\'{a}tica}. [S.l.]: Novatec
   Editora, 2010.}
+
+\bibitem[KOLMAN e HILL 2006]{kolman2006introduccao}
+\abntrefinfo{KOLMAN e HILL}{KOLMAN; HILL}{2006}
+{KOLMAN, B.; HILL, D.~R. \emph{Introdu{\c{c}}{\~a}o {\`a} {\'A}lgebra Linear
+  com Aplica{\c{c}}{\~o}es}. 8. ed. Rio de Janeiro: LTC, 2006.}
 
 \bibitem[Kurse 2013]{kurose2013}
 \abntrefinfo{Kurse}{KURSE}{2013}
@@ -226,6 +304,12 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Lesk}{LESK}{2019}
 {LESK, A. \emph{Introduction to bioinformatics}. [S.l.]: Oxford university
   press, 2019.}
+
+\bibitem[Lipschutz, Abellanas e Ontalba 1992]{lipschutz1992algebra}
+\abntrefinfo{Lipschutz, Abellanas e Ontalba}{LIPSCHUTZ; ABELLANAS;
+  ONTALBA}{1992}
+{LIPSCHUTZ, S.; ABELLANAS, L.; ONTALBA, C.~M. \emph{{\'A}lgebra lineal}.
+  [S.l.]: McGraw-Hill, 1992. v.~366.}
 
 \bibitem[Machado e Maia 2013]{machadomaia2013}
 \abntrefinfo{Machado e Maia}{MACHADO; MAIA}{2013}
@@ -272,6 +356,19 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Moraes}{MORAES}{2010}
 {MORAES, A. F.~d. \emph{Redes de computadores: Fundamentos}. [S.l.]: Érica,
   2010.}
+
+\bibitem[Morettin e BUSSAB 2017]{morettin2017estatistica}
+\abntrefinfo{Morettin e BUSSAB}{MORETTIN; BUSSAB}{2017}
+{MORETTIN, P.~A.; BUSSAB, W.~O. \emph{Estat{\'\i}stica b{\'a}sica}. [S.l.]:
+  Editora Saraiva, 2017.}
+
+\bibitem[Morimoto 2010]{morimoto2010}
+\abntrefinfo{Morimoto}{MORIMOTO}{2010a}
+{MORIMOTO, C.~E. \emph{Hardware II: O guia definitivo}. [S.l.]: Sul, 2010.}
+
+\bibitem[Morimoto 2010]{morimoto2010redes}
+\abntrefinfo{Morimoto}{MORIMOTO}{2010b}
+{MORIMOTO, C.~E. \emph{Redes, guia pr\'{a}tico}. [S.l.]: Sul, 2010.}
 
 \bibitem[Nielsen 2007]{nielsen2007}
 \abntrefinfo{Nielsen}{NIELSEN}{2007}
@@ -342,10 +439,10 @@ Dispon{\'\i}vel em:
 {SMITH, R.~W. \emph{Linux: ferramentas poderosas}. [S.l.]: Ed. Ci\^{e}ncia
   Moderna, 2004.}
 
-\bibitem[Software]{Abes2018}
-\abntrefinfo{Software}{SOFTWARE}{}
+\bibitem[Software 2018]{Abes2018}
+\abntrefinfo{Software}{SOFTWARE}{2018}
 {SOFTWARE, A.~A. {a}oo Brasileira das Empresas~de. \emph{Mercado Brasileiro de
-  Software}: Panoramas e tend\^{e}ncias. S\~{a}o Paulo: [s.n.].
+  Software}: Panoramas e tend\^{e}ncias. S\~{a}o Paulo: [s.n.], 2018.
 Dispon{\'\i}vel em: \url{http://central.abessoftware.com.br}.}
 
 \bibitem[Sommerville 2011]{sommerville2011engenharia}
@@ -354,7 +451,8 @@ Dispon{\'\i}vel em: \url{http://central.abessoftware.com.br}.}
 
 \bibitem[Sommerville 2019]{sommerville2019engenharia}
 \abntrefinfo{Sommerville}{SOMMERVILLE}{2019}
-{SOMMERVILLE, I. \emph{Engenharia de software}. [S.l.]: Pearson Brasil, 2019.}
+{SOMMERVILLE, I. \emph{Engenharia de software}. 10. ed. [S.l.]: Pearson Brasil,
+  2019.}
 
 \bibitem[Souza 2008]{souza2008}
 \abntrefinfo{Souza}{SOUZA}{2008}
@@ -391,10 +489,25 @@ Dispon{\'\i}vel em: \url{http://central.abessoftware.com.br}.}
 {TANENBAUM, A.~S.; AUSTIN, T. \emph{Organização estruturada de computadores}.
   [S.l.]: Pearson Prentice Hall, 2013.}
 
+\bibitem[Tanenbaum e Wetherall 2011]{tanenbaum2011redes}
+\abntrefinfo{Tanenbaum e Wetherall}{TANENBAUM; WETHERALL}{2011}
+{TANENBAUM, A.~S.; WETHERALL, D. \emph{Redes de Computadores}. 5. ed. [S.l.]:
+  Pearson, 2011.}
+
+\bibitem[Tenenbaum, Langsam e Augenstein 2004]{tenenbaum2004estruturas}
+\abntrefinfo{Tenenbaum, Langsam e Augenstein}{TENENBAUM; LANGSAM;
+  AUGENSTEIN}{2004}
+{TENENBAUM, A.~M.; LANGSAM, Y.; AUGENSTEIN, M.~J. \emph{Estruturas de dados
+  usando C}. [S.l.]: Pearson Makron Books, 2004.}
+
 \bibitem[Teruel 2012]{teruel2012}
 \abntrefinfo{Teruel}{TERUEL}{2012}
 {TERUEL, E.~C. \emph{Arquitetura de sistemas para web com Java utilizando
   design patterns e frameworks}. [S.l.]: Ci\^{e}ncia Moderna, 2012.}
+
+\bibitem[Thomas et al. 2002]{thomas2002calculo}
+\abntrefinfo{Thomas et al.}{THOMAS et al.}{2002}
+{THOMAS, G.~B. et al. \emph{C{\'a}lculo}. [S.l.]: Addison Wesley, 2002. v.~1.}
 
 \bibitem[Toby 2007]{toby2007}
 \abntrefinfo{Toby}{TOBY}{2007}
@@ -430,5 +543,10 @@ Elsevier Editora, 2011.}
 \abntrefinfo{Weber}{WEBER}{2012}
 {WEBER, R.~F. \emph{Fundamentos de Arquitetura de Computadores}. [S.l.]:
   Bookman, 2012.}
+
+\bibitem[WINTERLE e STEINBRUCH 1987]{winterle1987algebra}
+\abntrefinfo{WINTERLE e STEINBRUCH}{WINTERLE; STEINBRUCH}{1987}
+{WINTERLE, P.; STEINBRUCH, A. {\'A}lgebra linear.
+\emph{S{\~a}o Paulo: 2{\textordfeminine} ed. McGraw-Hill}, 1987.}
 
 \end{thebibliography}
