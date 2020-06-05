@@ -87,6 +87,11 @@ Dispon{\'\i}vel em:
 {BROOKSHEAR, J.~G. \emph{Ci{\^e}ncia da Computa{\c{c}}{\~a}o-: Uma Vis{\~a}o
   Abrangente}. [S.l.]: Bookman Editora, 2013.}
 
+\bibitem[Carvalho 2005]{Carvalho2005}
+\abntrefinfo{Carvalho}{CARVALHO}{2005}
+{CARVALHO, L.~G. \emph{Seguran{\c{c}}a de redes}. 1. ed. [S.l.]: Ci{\^e}ncia
+  Moderna, 2005.}
+
 \bibitem[Castells 2003]{castells2003}
 \abntrefinfo{Castells}{CASTELLS}{2003}
 {CASTELLS, M. \emph{A gal\'{a}xia da Internet : reflex\~{o}es sobre a Internet,
@@ -155,6 +160,11 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Filho}{FILHO}{2003}
 {FILHO, W. de P.~P. \emph{Engenharia de software}. [S.l.]: LTC, 2003. v.~2.}
 
+\bibitem[Fontes 2017]{Fontes2017}
+\abntrefinfo{Fontes}{FONTES}{2017}
+{FONTES, E. L.~G. \emph{Seguran{\c{c}}a da informa{\c{c}}{\~a}o}. 1. ed.
+  [S.l.]: Saraiva, 2017.}
+
 \bibitem[Forbellone e Ebersp\"{a}cher 2005]{forbelloneeberspacher2005}
 \abntrefinfo{Forbellone e Ebersp\"{a}cher}{FORBELLONE; EBERSP\"{a}CHER}{2005}
 {FORBELLONE, A. L.~V.; EBERSP\"{a}CHER, H.~F. \emph{L\'{o}gica de
@@ -219,6 +229,12 @@ Dispon{\'\i}vel em:
 {GU\'{e}RIN, F. et al. \emph{Compreender o trabalho para transform\'{a}-lo: a
   pr\'{a}tica da ergonomia}. [S.l.]: USP, Escola Polit\'{e}cnica, Dep. de
   Engenharia da Produç\~{a}o: Fundaç\~{a}o Vanzollini, 2001.}
+
+\bibitem[Guimar{\~a}es, Lins e Oliveira 2006]{Guimaraes2006}
+\abntrefinfo{Guimar{\~a}es, Lins e Oliveira}{GUIMAR{\~A}ES; LINS;
+  OLIVEIRA}{2006}
+{GUIMAR{\~A}ES, R.~C.; LINS, A.~G.; OLIVEIRA, R.~D. \emph{Seguran{\c{c}}a com
+  Redes Privadas Virtuais VPN}. 1. ed. [S.l.]: Brasport, 2006.}
 
 \bibitem[Hines, Montgomery e Goldsman 2000]{hines2000probabilidade}
 \abntrefinfo{Hines, Montgomery e Goldsman}{HINES; MONTGOMERY; GOLDSMAN}{2000}
@@ -419,6 +435,11 @@ Dispon{\'\i}vel em:
 {SANTOS, R. \emph{Introduç\~{a}o \`{a} programaç\~{a}o orientada a objetos
   usando Java}. [S.l.]: Campos, 2003.}
 
+\bibitem[S{\^e}mola 2014]{Semola2014}
+\abntrefinfo{S{\^e}mola}{S{\^E}MOLA}{2014}
+{S{\^E}MOLA, M. \emph{Gestão da Seguran{\c{c}}a da Informa{\c{c}}{\~a}o - Uma
+  Vis{\~a}o Executiva}. 2. ed. [S.l.]: LTC, 2014.}
+
 \bibitem[Setubal e Meidanis 1997]{setubal1997}
 \abntrefinfo{Setubal e Meidanis}{SETUBAL; MEIDANIS}{1997}
 {SETUBAL, J.~C.; MEIDANIS, J. \emph{Introduction to computational molecular
@@ -484,6 +505,11 @@ Dispon{\'\i}vel em: \url{http://central.abessoftware.com.br}.}
 \abntrefinfo{Stallings}{STALLINGS}{2010}
 {STALLINGS, W. \emph{Arquitetura e organizaç\~{a}o de computadores}. [S.l.]:
   Pearson, 2010.}
+
+\bibitem[Stallings 2014]{Stallings2014}
+\abntrefinfo{Stallings}{STALLINGS}{2014}
+{STALLINGS, W. \emph{Criptografia e Seguran{\c{c}}a de Redes: Princ{\'\i}pios e
+  Pr{\'a}ticas}. 6. ed. [S.l.]: Pearson, 2014.}
 
 \bibitem[Steven 2001]{steven2001}
 \abntrefinfo{Steven}{STEVEN}{2001}
