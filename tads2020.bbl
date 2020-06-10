@@ -117,6 +117,11 @@ Dispon{\'\i}vel em:
 {COUGO, P.~S. \emph{Modelagem conceitual e projeto de banco de dados}. [S.l.]:
   Elsevier, 1997.}
 
+\bibitem[Coulouris et al. 2013]{coulouris2013}
+\abntrefinfo{Coulouris et al.}{COULOURIS et al.}{2013}
+{COULOURIS, G. et al. \emph{Sistemas Distribu\'{i}dos: conceitos e projeto}. 5.
+  ed. [S.l.]: Bookman, 2013.}
+
 \bibitem[Date 2004]{date2004}
 \abntrefinfo{Date}{DATE}{2004}
 {DATE, C.~J. \emph{Introdu{\c{c}}{\~a}o a sistemas de bancos de dados}. [S.l.]:
@@ -165,6 +170,12 @@ Dispon{\'\i}vel em:
 \bibitem[Farrer et al. 1999]{farrer1999algoritmos}
 \abntrefinfo{Farrer et al.}{FARRER et al.}{1999}
 {FARRER, H. et al. \emph{Algoritmos estruturados}. [S.l.]: LTC, 1999.}
+
+\bibitem[Fernandes e Abreu 2014]{fernandes2014}
+\abntrefinfo{Fernandes e Abreu}{FERNANDES; ABREU}{2014}
+{FERNANDES, A.~A.; ABREU, V. F.~d. \emph{Implantando a Governan{\c{c}}a de TI:
+  Da estrat\'{e}gia \`{a} gest{\~a}o de processos e servi{\c{c}}os}. 4. ed.
+  [S.l.]: Brasport, 2014.}
 
 \bibitem[Filho 2003]{de2003engenharia}
 \abntrefinfo{Filho}{FILHO}{2003}
@@ -227,12 +238,22 @@ Dispon{\'\i}vel em:
 \emph{Nature Reviews Genetics}, Nature Publishing Group, v.~17, n.~6, p.~333,
   2016.}
 
+\bibitem[Grinberg 2018]{grinberg2018}
+\abntrefinfo{Grinberg}{GRINBERG}{2018}
+{GRINBERG, M. \emph{Desenvolvimento web com Flask: Desenvolvendo aplicações
+  web com Python}. 1. ed. [S.l.]: Novatec, 2018.}
+
 \bibitem[Grossman 2019]{Convergencia2019}
 \abntrefinfo{Grossman}{GROSSMAN}{2019}
 {GROSSMAN, L.~O. \emph{TI precisa de 420 mil novos profissionais at\'{e} 2024}.
   2019.
 Dispon{\'\i}vel em:
   \url{https://www.convergenciadigital.com.br/cgi/cgilua.exe/sys/start.htm?UserActiveTemplate=site&infoid=50558&sid=46}.}
+
+\bibitem[Grus 2016]{grus2016}
+\abntrefinfo{Grus}{GRUS}{2016}
+{GRUS, J. \emph{Data Science do Zero: Primeiras Regras com o Python}. 1. ed.
+  [S.l.]: Alta Books, 2016.}
 
 \bibitem[Gu\'{e}rin et al. 2001]{guerin2001}
 \abntrefinfo{Gu\'{e}rin et al.}{GU\'{e}RIN et al.}{2001}
@@ -317,8 +338,8 @@ Dispon{\'\i}vel em:
 
 \bibitem[Kurse 2013]{kurose2013}
 \abntrefinfo{Kurse}{KURSE}{2013}
-{KURSE, J.~F. \emph{Redes de computadores: uma abordagem top-down}. [S.l.]:
-  Pearson Addison Wesley, 2013.}
+{KURSE, J.~F. \emph{Redes de computadores: uma abordagem top-down}. 6. ed.
+  [S.l.]: Pearson Addison Wesley, 2013.}
 
 \bibitem[Lafore e Machado 2004]{lafore2004estruturas}
 \abntrefinfo{Lafore e Machado}{LAFORE; MACHADO}{2004}
@@ -351,6 +372,12 @@ Dispon{\'\i}vel em:
   ONTALBA}{1992}
 {LIPSCHUTZ, S.; ABELLANAS, L.; ONTALBA, C.~M. \emph{{\'A}lgebra lineal}.
   [S.l.]: McGraw-Hill, 1992. v.~366.}
+
+\bibitem[Luckow e Melo 2010]{luckow2010}
+\abntrefinfo{Luckow e Melo}{LUCKOW; MELO}{2010}
+{LUCKOW, D.~H.; MELO, A. A.~d. \emph{Programação Java Para a Web: Aprenda a
+  Desenvolver uma Aplicação Financeira Pessoal com as Ferramentas Mais
+  Modernas da Plataforma Java}. 2. ed. [S.l.]: Novatec, 2010.}
 
 \bibitem[Luger 2013]{luger2013ia}
 \abntrefinfo{Luger}{LUGER}{2013}
@@ -394,6 +421,11 @@ Dispon{\'\i}vel em:
 {MILANI, A. \emph{PostgreSQL-Guia do Programador}. [S.l.]: Novatec Editora,
   2008.}
 
+\bibitem[Milani 2016]{milani2016}
+\abntrefinfo{Milani}{MILANI}{2016}
+{MILANI, A. \emph{Construindo Aplicações web com PHP e MySQL}. 2. ed. [S.l.]:
+  Novatec, 2016.}
+
 \bibitem[Minetto 2007]{minetto2007}
 \abntrefinfo{Minetto}{MINETTO}{2007}
 {MINETTO, E.~L. \emph{Frameworks para desenvolvimento PHP}. [S.l.]: Novatec,
@@ -414,13 +446,19 @@ Dispon{\'\i}vel em:
 {MORETTIN, P.~A.; BUSSAB, W.~O. \emph{Estat{\'\i}stica b{\'a}sica}. [S.l.]:
   Editora Saraiva, 2017.}
 
+\bibitem[Morimoto 2008]{morimoto2008}
+\abntrefinfo{Morimoto}{MORIMOTO}{2008}
+{MORIMOTO, C.~E. \emph{Servidores Linux: Guia Pr\'{a}tico}. 1. ed. [S.l.]: GDH
+  Press e Sul Editores, 2008.}
+
 \bibitem[Morimoto 2010]{morimoto2010}
-\abntrefinfo{Morimoto}{MORIMOTO}{2010a}
+\abntrefinfo{Morimoto}{MORIMOTO}{2010}
 {MORIMOTO, C.~E. \emph{Hardware II: O guia definitivo}. [S.l.]: Sul, 2010.}
 
-\bibitem[Morimoto 2010]{morimoto2010redes}
-\abntrefinfo{Morimoto}{MORIMOTO}{2010b}
-{MORIMOTO, C.~E. \emph{Redes, guia pr\'{a}tico}. [S.l.]: Sul, 2010.}
+\bibitem[Morimoto 2011]{morimoto2011redes}
+\abntrefinfo{Morimoto}{MORIMOTO}{2011}
+{MORIMOTO, C.~E. \emph{Redes: Guia Pr\'{a}tico}. 2. ed. [S.l.]: GDH Press e Sul
+  Editores, 2011.}
 
 \bibitem[Nielsen 2007]{nielsen2007}
 \abntrefinfo{Nielsen}{NIELSEN}{2007}
@@ -435,10 +473,20 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Peirce}{PEIRCE}{2010}
 {PEIRCE, C.~S. \emph{Semi\'{o}tica}. 4. ed. [S.l.]: Perspectiva, 2010.}
 
+\bibitem[PMI 2013]{pmi2013}
+\abntrefinfo{PMI}{PMI}{2013}
+{PMI. \emph{Um guia do conhecimento em gerenciamento de projetos (guia PMBOK)}.
+  5. ed. [S.l.]: Project Management Institute, 2013.}
+
+\bibitem[Powers 2017]{powers2017}
+\abntrefinfo{Powers}{POWERS}{2017}
+{POWERS, S. \emph{Aprendendo Node: Usando JavaScript no Servidor}. 1. ed.
+  [S.l.]: Novatec, 2017.}
+
 \bibitem[Pressman e Maxim 2016]{pressman2016engenharia}
 \abntrefinfo{Pressman e Maxim}{PRESSMAN; MAXIM}{2016}
-{PRESSMAN, R.; MAXIM, B. \emph{Engenharia de Software}. [S.l.]: McGraw Hill
-  Brasil, 2016. v.~8.}
+{PRESSMAN, R.; MAXIM, B. \emph{Engenharia de Software: Uma Abordagem
+  Profissional}. [S.l.]: McGraw Hill Brasil, 2016. v.~8.}
 
 \bibitem[Prikladnicki, Willi e Milani 2014]{prikladnicki2014metodos}
 \abntrefinfo{Prikladnicki, Willi e Milani}{PRIKLADNICKI; WILLI; MILANI}{2014}
@@ -546,6 +594,11 @@ Dispon{\'\i}vel em: \url{http://central.abessoftware.com.br}.}
 {SZWARCFITER, J.~L.; MARKENZON, L. \emph{Estruturas de Dados e seus
   Algoritmos}. [S.l.]: Livros T\'{e}cnicos e Cient\'{i}ficos, 1994. v.~2.}
 
+\bibitem[Tanembaum e Whetheral 2011]{tanenbaum2011}
+\abntrefinfo{Tanembaum e Whetheral}{TANEMBAUM; WHETHERAL}{2011}
+{TANEMBAUM, A.~S.; WHETHERAL, D. \emph{Redes de computadores}. 5. ed. [S.l.]:
+  Pearson Brasil, 2011.}
+
 \bibitem[Tanenbaum 2008]{tanenbaum2008}
 \abntrefinfo{Tanenbaum}{TANENBAUM}{2008}
 {TANENBAUM, A.~S. \emph{Sistemas operacionais: projeto e implementação}.
@@ -560,6 +613,11 @@ Dispon{\'\i}vel em: \url{http://central.abessoftware.com.br}.}
 \abntrefinfo{Tanenbaum e Austin}{TANENBAUM; AUSTIN}{2013}
 {TANENBAUM, A.~S.; AUSTIN, T. \emph{Organização estruturada de computadores}.
   [S.l.]: Pearson Prentice Hall, 2013.}
+
+\bibitem[Tanenbaum e Steen 2007]{tanenbaumsteen2007}
+\abntrefinfo{Tanenbaum e Steen}{TANENBAUM; STEEN}{2007}
+{TANENBAUM, A.~S.; STEEN, M.~V. \emph{Sistemas Distribu\'{i}dos: princ\'{i}pios
+  e paradigmas}. [S.l.]: Pearson Prentice Hall, 2007.}
 
 \bibitem[Tanenbaum e Wetherall 2011]{tanenbaum2011redes}
 \abntrefinfo{Tanenbaum e Wetherall}{TANENBAUM; WETHERALL}{2011}
@@ -600,6 +658,11 @@ Dispon{\'\i}vel em: \url{http://central.abessoftware.com.br}.}
 {TOSCANI, L.~V. \emph{Complexidade de algoritmos: an\'{a}lise, projeto e
   m\'{e}todos}. [S.l.]: Bookman, 2012.}
 
+\bibitem[Ullman 2008]{ullman2008}
+\abntrefinfo{Ullman}{ULLMAN}{2008}
+{ULLMAN, L. \emph{PHP 6 e MySQL 5 para web sites dinâmicos: aprenda PHP e
+  MySQL com rapidez e eficiência}. 1. ed. [S.l.]: Ciência Moderna, 2008.}
+
 \bibitem[Verli 2014]{verli2014}
 \abntrefinfo{Verli}{VERLI}{2014}
 {VERLI, H. Bioinform{\'a}tica: da biologia {\`a} flexibilidade molecular.
@@ -615,6 +678,11 @@ Elsevier Editora, 2011.}
 \abntrefinfo{Weber}{WEBER}{2012}
 {WEBER, R.~F. \emph{Fundamentos de Arquitetura de Computadores}. [S.l.]:
   Bookman, 2012.}
+
+\bibitem[Weill e Ross 2005]{weill2005}
+\abntrefinfo{Weill e Ross}{WEILL; ROSS}{2005}
+{WEILL, P.; ROSS, J.~W. \emph{Governan{\c{c}}a de TI: Tecnologia da
+  Informa{\c{c}}{\~a}o}. 1. ed. [S.l.]: M.Books, 2005.}
 
 \bibitem[WINTERLE e STEINBRUCH 1987]{winterle1987algebra}
 \abntrefinfo{WINTERLE e STEINBRUCH}{WINTERLE; STEINBRUCH}{1987}
