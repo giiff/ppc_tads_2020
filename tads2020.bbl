@@ -19,6 +19,11 @@
 {ANTON, H.; RORRES, C. \emph{{\'A}lgebra linear com aplica{\c{c}}{\~o}es}.
   [S.l.]: Bookman Porto Alegre, 2001. v.~8.}
 
+\bibitem[Artero 2009]{almir2009ia}
+\abntrefinfo{Artero}{ARTERO}{2009}
+{ARTERO, A.~O. \emph{Intelig{\^e}ncia Artificial: Teoria e Pr\'{a}tica}.
+  [S.l.]: Livraria da F{\'\i}sica, 2009.}
+
 \bibitem[Ascencio e Ara\'{u}jo 2010]{ascencio2010estruturas}
 \abntrefinfo{Ascencio e Ara\'{u}jo}{ASCENCIO; ARA\'{u}JO}{2010}
 {ASCENCIO, A. F.~G.; ARA\'{u}JO, G. S.~d. Estruturas de dados: algoritmos,
@@ -86,6 +91,11 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Brookshear}{BROOKSHEAR}{2013}
 {BROOKSHEAR, J.~G. \emph{Ci{\^e}ncia da Computa{\c{c}}{\~a}o-: Uma Vis{\~a}o
   Abrangente}. [S.l.]: Bookman Editora, 2013.}
+
+\bibitem[Carvalho et al. 2011]{carvalho2011ia}
+\abntrefinfo{Carvalho et al.}{CARVALHO et al.}{2011}
+{CARVALHO, A. C. P. L. F.~d. et al. \emph{Intelig{\^e}ncia Artificial: Uma
+  Abordagem de Aprendizado de M\'{a}quina}. 1. ed. [S.l.]: LTC, 2011.}
 
 \bibitem[Carvalho 2005]{Carvalho2005}
 \abntrefinfo{Carvalho}{CARVALHO}{2005}
@@ -236,6 +246,11 @@ Dispon{\'\i}vel em:
 {GUIMAR{\~A}ES, R.~C.; LINS, A.~G.; OLIVEIRA, R.~D. \emph{Seguran{\c{c}}a com
   Redes Privadas Virtuais VPN}. 1. ed. [S.l.]: Brasport, 2006.}
 
+\bibitem[Haykin 2001]{haykin2001ia}
+\abntrefinfo{Haykin}{HAYKIN}{2001}
+{HAYKIN, S. \emph{Redes Neurais: Princ\'{i}pios e Pr\'{a}tica}. 2. ed. [S.l.]:
+  Bookman, 2001.}
+
 \bibitem[Hines, Montgomery e Goldsman 2000]{hines2000probabilidade}
 \abntrefinfo{Hines, Montgomery e Goldsman}{HINES; MONTGOMERY; GOLDSMAN}{2000}
 {HINES, W.~W.; MONTGOMERY, D.~C.; GOLDSMAN, D.~M. \emph{Probabilidade E
@@ -337,6 +352,11 @@ Dispon{\'\i}vel em:
 {LIPSCHUTZ, S.; ABELLANAS, L.; ONTALBA, C.~M. \emph{{\'A}lgebra lineal}.
   [S.l.]: McGraw-Hill, 1992. v.~366.}
 
+\bibitem[Luger 2013]{luger2013ia}
+\abntrefinfo{Luger}{LUGER}{2013}
+{LUGER, G.~F. \emph{Intelig{\^e}ncia Artificial}. [S.l.]: Pearson Education do
+  Brasil, 2013.}
+
 \bibitem[Machado e Maia 2013]{machadomaia2013}
 \abntrefinfo{Machado e Maia}{MACHADO; MAIA}{2013}
 {MACHADO, F.~B.; MAIA, L.~P. \emph{Arquitetura de sistemas operacionais}.
@@ -429,6 +449,11 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Rodrigues}{RODRIGUES}{2010}
 {RODRIGUES, A. \emph{Desevolvimento para internet}. [S.l.]: Livro T\'{e}cnico,
   2010.}
+
+\bibitem[Russell e Norvig 2013]{russellnorvig2013ia}
+\abntrefinfo{Russell e Norvig}{RUSSELL; NORVIG}{2013}
+{RUSSELL, S.; NORVIG, P. \emph{Intelig{\^e}ncia Artificial}. [S.l.]: Campus,
+  2013.}
 
 \bibitem[Santos 2003]{santos2003}
 \abntrefinfo{Santos}{SANTOS}{2003}
