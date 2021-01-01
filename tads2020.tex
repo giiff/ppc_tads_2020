@@ -185,7 +185,16 @@
   \bookmarksetup{startatroot}% 
 }
 % ---
-\renewcommand{\chaptername}{}
+%\renewcommand{\chaptername}{}
+\renewcommand{\ABNTEXchapterfont}{\huge\bfseries\color{blue}}
+%\usepackage{titlesec}    
+%\titleformat{\chapter}[display]
+%  {\normalfont\sffamily\huge\bfseries\color{blue}}
+%  {\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+%\titleformat{\section}
+%  {\normalfont\sffamily\Large\bfseries\color{blue}}
+%  {\thesection}{2em}{}
 
 % Margens do documento 
 %% (margens do abntex2 não combinam nem com A5 nem com estilos de capítulo da
@@ -206,6 +215,8 @@
 
 \makeatother
 
+\usepackage{mathptmx}
+\renewcommand{\sfdefault}{\rmdefault} % No serif fonts, use roman (times)
 
 % ---
 % Início do documento
@@ -245,9 +256,9 @@
 	\par
 	{\large PRESIDENTE DA REPÚBLICA \\ Jair Messias Bolsonaro}\vspace*{1cm}
 	\par
-	{\large MINISTRO DA EDUCAÇÃO \\ Abraham Bragança de Vasconcellos Weintraub}\vspace*{1cm}
+	{\large MINISTRO DA EDUCAÇÃO \\ \vermelho{Preencher}}\vspace*{1cm}
 	\par
-	{\large SECRETÁRIO DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA \\ Ariosto Antunes Culau}\vspace*{1cm}
+	{\large SECRETÁRIO DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA \\  \vermelho{Preencher}}\vspace*{1cm}
 	\par
 	{\large REITOR DO INSTITUTO FEDERAL DE GOIÁS \\ Jerônimo Rodrigues da Silva}\vspace*{1cm}
 	\par
@@ -321,7 +332,7 @@
 	\item \textbf{Reitor:} Jeronimo Rodrigues da Silva
 	\item \textbf{Pró-Reitora de Ensino:} Oneida Cristina Gomes Barcelos Irigon
 	\item \textbf{Diretoria de Educação Básica e Superior:} Maria Valeska Lopes Viana
-	\item \textbf{ Coordenação de Ensino Superior:} Vinicius Sousa Ferreira
+	\item \textbf{Coordenação de Ensino Superior:} Vinicius Sousa Ferreira
 \end{itemize}
 
 \section*{\textbf{Comissão de Elaboração do Projeto de Curso}}
@@ -338,7 +349,8 @@
 
   
 % ------------------------------------------------------------
-\chapter{Introdução}
+\chapter*[Introdução]{Introdução}
+\addcontentsline{toc}{chapter}{Introdução}
 % ------------------------------------------------------------
 
 O Instituto Federal de Goiás - Câmpus Formosa vêm formando profissionais de nível superior desde 2013 através de seus quatro cursos: duas licenciaturas, Ciências Biológicas e Ciências Sociais; um bacharelado, Engenharia Civil; e um tecnólogo em Análise e Desenvolvimento de
@@ -426,7 +438,8 @@ O Tecnólogo em Análise e Desenvolvimento de Sistemas:
 	\item Atualiza-se mantendo-se criativo e inovador.
 \end{enumerate}
 
-\chapter{Organização do Curso}\label{organizacao}
+\chapter*[Organização do Curso]{Organização do Curso}\label{organizacao}
+\addcontentsline{toc}{chapter}{Organização do Curso}
 
 \section*{Requisitos para Acesso ao Curso}
 
@@ -634,8 +647,8 @@ Para obter o \textbf{Certificado de  de Técnico de Nível Médio em ``Desenvolv
 \end{enumerate}
 
 
-\chapter{Ementas}\label{ementas}
-
+\chapter*[Ementas]{Ementas}\label{ementas}
+\addcontentsline{toc}{chapter}{Ementas}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% 1 SEMESTRE
@@ -1913,7 +1926,8 @@ Essas disciplinas estão alinhadas com demandas atuais do mundo do trabalho e co
 
 
 
-\chapter{Estrutura Física}\label{estrutura}
+\chapter*[Estrutura Física]{Estrutura Física}\label{estrutura}
+\addcontentsline{toc}{chapter}{Estrutura Física}
 
 \section*{Laboratórios de Informática}
 Três laboratórios de informática com capacidade para até 30 estudantes, com acesso à Internet, computadores com sistema operacional Linux, softwares aplicativos diversos.
@@ -1953,7 +1967,9 @@ Teatro equipado com som e iluminação específica e acomodações para 320 pess
 
 
 
-\chapter{Corpo Docente}\label{docentes}
+\chapter*[Corpo Docente]{Corpo Docente}\label{docentes}
+\addcontentsline{toc}{chapter}{Corpo Docente}
+
 
 %\section*{Vinícius Gomes}\label{ViniciusGomes}
 %\begin{itemize}
@@ -1985,7 +2001,9 @@ Teatro equipado com som e iluminação específica e acomodações para 320 pess
 % ------------------------------------------------------------
 \postextual % pós-textual
 % ------------------------------------------------------------
-\chapter{Apêndice}\label{apendice}
+\chapter*[Apêndice]{Apêndice}\label{apendice}
+\addcontentsline{toc}{chapter}{Apêndice}
+
 \newpage
 \section*{Compatibilidade com a Matriz Curricular Anterior}
 \indent
